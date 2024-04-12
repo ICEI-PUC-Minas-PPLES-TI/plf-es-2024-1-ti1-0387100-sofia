@@ -7,7 +7,7 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 * Fernanda Sabino Dutra
 * Kelvin Gustavo Fernandes Mendes
 * Lucas Nunes Leal Ledsham
-* NVictor Guimarães de Alvarenga Cunha
+* Victor Guimarães de Alvarenga Cunha
 
 ## Professores responsáveis
 
