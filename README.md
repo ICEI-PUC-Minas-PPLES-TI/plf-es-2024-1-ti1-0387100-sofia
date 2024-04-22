@@ -1,6 +1,6 @@
 # SOFIA
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+A SOFIA - Sistema Online Facilitador para Idade Avançada, surgiu para auxiliar os cidadãos de idade avançada, trazendo a proposta de solucionar o problema de falta de informação sobre segurança digital e proporcionando uma plataforma de fácil acessibilidade com informações atualizadas, afim de evitar que mais pessoas se tornem vítimas dos golpes aplicados online.
 
 ## Alunos integrantes da equipe
 
