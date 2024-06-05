@@ -1,0 +1,420 @@
+/* ESITLIZACAO PADRAO */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f7f4;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+/* MENU */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  /* margin-left: 80px; */
+  /* margin-right: 80px; */
+  padding-top: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  /* padding-bottom: 20px; */
+}
+
+.logo-header img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.menu li {
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+#cadastro-menu a {
+  color: #00013e;
+}
+
+#login-menu a {
+  background-color: #00013e;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+}
+
+#login-menu a:hover {
+  background-color: rgb(0, 1, 61, 0.8);
+}
+
+#cadastro-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Secao Texto Inicial */
+
+.mensagem-inicial {
+  margin-top: 85px;
+  display: grid;
+  justify-content: center;
+}
+
+.mensagem-inicial h1 {
+  font-size: 3rem;
+  font-family: "Lora", serif;
+  color: #01012f;
+  max-width: 940px;
+  text-align: center;
+}
+
+.mudanca-cor {
+  color: #023e8a;
+}
+
+#texto-digitar {
+  text-align: center;
+  font-family: "Lora", serif;
+  color: #01012f;
+  margin-top: 5px;
+}
+
+/* ABAS */
+.box-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 18.3px;
+  margin: 0px -1px;
+  color: black;
+  border-radius: 5px;
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 50px;
+}
+
+.tabs {
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+  display: grid;
+  justify-content: center;
+}
+
+.tabs label:hover {
+  border: 2px solid #023e8a;
+  border-radius: 50px;
+}
+
+.nav-principal {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.nav-secundario {
+  display: flex;
+  font-size: 1.15rem;
+  gap: 24px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+
+#one-tab {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.panels {
+  min-height: 260px;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.panel {
+  display: none;
+  animation: fadein 0.8s;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tab-title {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.radio {
+  display: none;
+}
+
+#um:checked ~ .panels #tab-um,
+#dois:checked ~ .panels #tab-dois,
+#tres:checked ~ .panels #tab-tres,
+#quatro:checked ~ .panels #tab-quatro,
+#cinco:checked ~ .panels #tab-cinco,
+#seis:checked ~ .panels #tab-seis,
+#sete:checked ~ .panels #tab-sete {
+  display: block;
+}
+
+#um:checked ~ .tabs #one-tab,
+#dois:checked ~ .tabs #two-tab,
+#tres:checked ~ .tabs #three-tab,
+#quatro:checked ~ .tabs #four-tab,
+#cinco:checked ~ .tabs #five-tab,
+#seis:checked ~ .tabs #six-tab,
+#sete:checked ~ .tabs #seven-tab {
+  background: #023e8a;
+  color: white;
+}
+
+/* INICIO */
+
+.intro-video {
+  display: grid;
+  grid-template-columns: auto 600px;
+  gap: 70px;
+  justify-items: center;
+}
+
+#video-youtube {
+  align-self: center;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.textos-videos {
+  /* width: 90%; */
+  max-width: 1000px;
+  display: grid;
+}
+
+.texto-item {
+  background-color: #f8f7f4;
+  color: #111;
+  margin: 1rem 0;
+  border-left: 2px solid #023e8a;
+}
+
+.texto-item-header {
+  padding-left: 2rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: gray;
+  background-color: #f8f7f4;
+  font-family: "Lora", serif;
+  font-size: 1.4rem;
+}
+
+.texto-item-header:hover {
+  color: black;
+}
+
+.texto-item-header.active {
+  color: black;
+}
+
+.texto-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.texto-item-body-content {
+  padding-left: 2rem;
+  padding-bottom: 15px;
+  font-family: "PT Serif", serif;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* A SOFIA */
+
+.info-inicial {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 300px; */
+  margin-top: 20px;
+}
+
+.info-inicial p {
+  position: relative;
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  text-align: center;
+  z-index: 1;
+  max-width: 1000px;
+}
+
+.background-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  z-index: 0;
+  animation: rotateZ 3s, 6s linear 3;
+}
+
+@keyframes rotateZ {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(360deg);
+  }
+}
+
+.quem-somos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+
+.quem-somos p {
+  font-size: 4rem;
+  font-family: "Julius Sans One", sans-serif;
+  align-self: center;
+  text-align: right;
+  color: rgb(0, 119, 182, 0.7);
+  margin-right: 90px;
+}
+
+.rolagem {
+  max-width: 700px;
+}
+
+.rolagem__interna {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.rolagem__interna img {
+  border-radius: 20px;
+  height: 320px;
+  filter: grayscale(50%);
+  transition: filter 0.4s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.rolagem__interna img:hover {
+  filter: grayscale(0%);
+}
+
+.rolagem[data-animado="true"] {
+  overflow: hidden;
+}
+
+.rolagem[data-animado="true"] .rolagem__interna {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: rolar var(--duracao-animacao, 60s) linear infinite;
+}
+
+@keyframes rolar {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+}
+
+.card img {
+  display: block;
+  border-radius: 20px;
+  height: 320px;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  /* background: rgba(0, 0, 0, 0.6); */
+  color: white;
+  /* text-align: center; */
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+
+/* GOLPES */
+
+/* Estatuto do Idoso */
+.estatuto-secao {
+  display: grid;
+  grid-template-columns: 1fr 700px;
+}
+
+.estatuto-paragrafo {
+  font-family: "PT Serif", serif;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  display: grid;
+  gap: 15px;
+  align-content: center;
+  padding: 20px;
+}
