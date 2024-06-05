@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site ilustrativo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, nav, main, footer {
+            border: 1px solid #000;
+            padding: 20px;
+            margin: 10px;
+        }
+        header {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            background-color: #e4e4e4;
+        }
+        main {
+            background-color: #d4d4d4;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .content-section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+        }
+        footer {
+            background-color: #c4c4c4;
+            text-align: center;
+        }
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Website Header</h1>
+            <p>This is the header of the website.</p>
+        </div>
+        <div class="button-container">
+            <button onclick="window.location.href='index.html'">Login</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="content-section">
+            <h2>Section 1</h2>
+            <p>This is the first section of the main content.</p>
+        </section>
+        <section class="content-section">
+            <h2>Section 2</h2>
+            <p>This is the second section of the main content.</p>
+        </section>
+        <section class="content-section">
+            <h2>Section 3</h2>
+            <p>This is the third section of the main content.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Website Footer &copy; 2024</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiões de Risco em Belo Horizonte</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">SOFIA</h1>
+            <button class="login-btn">Login</button>
+        </header>
+        <main> 
+            <h2 class="subtitle">Regiões de risco em Belo Horizonte</h2>
+        </main>
+        <main class="main-layout">
+            <div class="map-chart">
+                <div id="map" class="map"></div>
+                <div id="chartContainer" class="chart-container">
+                    <canvas id="riskChart"></canvas>
+                </div>
+            </div>
+            <aside class="legend">
+                <h3>Legenda:</h3>
+                <div><img src="images/marker-green.png" alt="Baixo Risco"> Baixo Risco (0-30)</div>
+                <div><img src="images/marker-yellow.png" alt="Médio Risco"> Médio Risco (31-60)</div>
+                <div><img src="images/marker-red.png" alt="Alto Risco"> Alto Risco (61-100)</div>
+            </aside>
+        </main>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
