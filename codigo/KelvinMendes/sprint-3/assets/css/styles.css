@@ -1,0 +1,187 @@
+body {
+    background-color: #000000cb;
+    font-family: sans-serif;
+    color:#ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    display: inline-block;
+    vertical-align: center;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: center;
+}
+header {
+    background-color: #7179e4c7;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.news-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.news-item {
+    background-color: #7179e4c7;
+    border-radius: 25px;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.news-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.news-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.social-button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.social-button img {
+    width: 50px;
+    height: 50px;
+}
+.form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+  }
+  
+.form .title {
+    color: #313de4c7;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+  }
+  
+.form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+ }
+  
+.form button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #313de4c7;
+    color: #fff;
+    cursor: pointer;
+ }
+
+.paste-button {
+  position: relative;
+  display: block;
+}
+
+.button {
+  background-color: #7179e4c7;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: 2px solid;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  font-size: 13px;
+  position: absolute;
+  z-index: 1;
+  min-width: 200px;
+  background-color: #7179e4c7;
+  border: 2px solid #000000c7;
+  border-radius: 0px 15px 15px 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.1s;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff;
+  color: #7179e4c7;
+}
+
+.dropdown-content a:focus {
+  background-color: #fff;
+  color: #7179e4c7;
+}
+
+.dropdown-content #top:hover {
+  border-radius: 0px 13px 0px 0px;
+}
+
+.dropdown-content #bottom:hover {
+  border-radius: 0px 0px 13px 13px;
+}
+
+.paste-button:hover button {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.paste-button:hover .dropdown-content {
+  display: block;
+}
+    
