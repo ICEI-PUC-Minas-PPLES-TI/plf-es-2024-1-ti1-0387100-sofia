@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('data.json')
+    fetch('json/data.json')
         .then(response => response.json())
         .then(data => {
             initializeMap(data);
@@ -7,15 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
     function initializeMap(regioesDeRisco) {
-        // Inicializa o mapa na latitude e longitude de Belo Horizonte
         var map = L.map('map').setView([-19.9227, -43.9451], 13);
-
-        // Adiciona uma camada de mapa do OpenStreetMap
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        // Função para determinar a cor do marcador com base no risco
         function getMarkerIcon(risco) {
             let iconUrl = '';
             if (risco <= 30) {
@@ -28,14 +24,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
             return L.icon({
                 iconUrl: iconUrl,
-                iconSize: [25, 41], // Tamanho do ícone
-                iconAnchor: [12, 41], // Âncora do ícone (ponto onde ele será fixado no mapa)
-                popupAnchor: [1, -34], // Âncora do popup
-                shadowSize: [41, 41] // Tamanho da sombra
+                iconSize: [25, 41], 
+                iconAnchor: [12, 41], 
+                popupAnchor: [1, -34], 
+                shadowSize: [41, 41] 
             });
         }
 
-        // Adiciona marcadores para regiões de risco
         regioesDeRisco.forEach(function(regiao) {
             L.marker(regiao.coords, { icon: getMarkerIcon(regiao.risco) }).addTo(map)
                 .bindPopup(`${regiao.nome}<br>Risco: ${regiao.risco}`);
@@ -43,18 +38,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function initializeChart(regioesDeRisco) {
-        // Dados para o gráfico extraídos do JSON
+        
         var labels = regioesDeRisco.map(regiao => regiao.nome);
         var data = regioesDeRisco.map(regiao => regiao.risco);
 
-        // Função para determinar a cor da barra com base no risco
         function getBarColor(risco) {
             if (risco <= 30) {
-                return 'rgba(0, 255, 0, 0.6)'; // Verde
+                return 'rgba(0, 255, 0, 0.6)';
             } else if (risco <= 60) {
-                return 'rgba(255, 255, 0, 0.6)'; // Amarelo
+                return 'rgba(255, 255, 0, 0.6)';
             } else {
-                return 'rgba(255, 0, 0, 0.6)'; // Vermelho
+                return 'rgba(255, 0, 0, 0.6)';
             }
         }
 
@@ -75,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }]
             },
             options: {
-                indexAxis: 'y', // Gráfico de barras horizontais
+                indexAxis: 'y',
                 scales: {
                     x: {
                         beginAtZero: true
