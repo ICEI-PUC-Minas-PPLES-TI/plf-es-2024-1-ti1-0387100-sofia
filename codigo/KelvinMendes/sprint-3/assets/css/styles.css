@@ -7,16 +7,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.logo {
-  display: inline-block;
-  float: right;
-  vertical-align: center;
-}
-.text {
-  display: inline-block;
-  float: left;
-  vertical-align: center;
-}
 
 header {
   display: flex;
@@ -26,17 +16,29 @@ header {
   padding: 20px;
   text-align: center;
 }
+
+.logo {
+  display: inline-block;
+  vertical-align: center;
+}
+
 .form {
-  position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 10px;
   width: 300px;
-  background-color: white;
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; 
 }
 
 .form .title {
