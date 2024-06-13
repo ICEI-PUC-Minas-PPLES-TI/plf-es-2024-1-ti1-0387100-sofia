@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central de Denúncias</title>
+  <link rel="stylesheet" href="central-denuncia.css">
+</head>
+
+<body>
+  <section class="container">
+    <div class="texto-denuncia">
+      <h1>Sofreu algum golpe online recentemente? Conte-nos o que aconteceu</h1>
+      <p>Se você sofreu algum golpe online, pedimos que compartilhe conosco o que aconteceu.
+        Sua experiência pode ser valiosa para identificar padrões e aumentar a conscientização sobre as fraudes na internet.
+      </p>
+      <p>Juntos, podemos criar um ambiente digital mais seguro para todos!</p>
+    </div>
+    <form id="reportForm">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="city">Cidade:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="report">Relato:</label>
+      <textarea id="report" name="report" placeholder="Conte o que aconteceu" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <h2 id="texto-seus-relatos">Seus Relatos</h2>
+    <div id="reportList"></div>
+  </section>
+  <script src="central-denuncia.js"></script>
+</body>
+
+</html>
