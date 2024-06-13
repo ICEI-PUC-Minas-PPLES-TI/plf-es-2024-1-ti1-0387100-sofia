@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
 }
 
+/* Cabeçalho */
 header {
   display: flex;
   justify-content: center;
@@ -21,7 +22,7 @@ header {
   display: inline-block;
   vertical-align: center;
 }
-
+/* Dropdown - Categoria */
 .form {
   display: flex;
   justify-content: center;
@@ -34,13 +35,14 @@ header {
   border-radius: 10px;
   box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
 }
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40vh; 
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
-
+/*       */
 .form .title {
   color: #313de4c7;
   font-size: 30px;
