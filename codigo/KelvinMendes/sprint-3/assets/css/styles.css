@@ -8,7 +8,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Cabeçalho */
 header {
   display: flex;
   justify-content: center;
@@ -22,7 +21,7 @@ header {
   display: inline-block;
   vertical-align: center;
 }
-/* Dropdown - Categoria */
+
 .form {
   display: flex;
   justify-content: center;
@@ -35,6 +34,7 @@ header {
   border-radius: 10px;
   box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
 }
+
 .center {
   position: absolute;
   top: 50%;
@@ -42,7 +42,7 @@ header {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-/*       */
+
 .form .title {
   color: #313de4c7;
   font-size: 30px;
@@ -145,4 +145,35 @@ header {
 
 .paste-button:hover .dropdown-content {
   display: block;
+}
+
+.news-item {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-item button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #313de4c7;
+  color: #fff;
+}
+
+.news-item button.edit-button {
+  background-color: #313de4c7;
+  color: #fff;
+
+.news-item button.delete-button {
+  background-color: #313de4c7;
+  color: #fff;
 }
