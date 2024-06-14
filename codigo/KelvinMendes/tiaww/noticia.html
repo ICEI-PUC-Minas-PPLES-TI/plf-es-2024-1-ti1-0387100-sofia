@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Noticia</title>
+  <link rel="icon" href="assets/img/sofia_logo.png" type="image/icon type" />
+  <link rel="stylesheet" href="noticia.css" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <img width="75" height="50" src="assets/img/sofia_logo.png" />
+    </div>
+    <h1>SOFIA</h1>
+  </header>
+
+  <div id="container" class="center">
+    <form class="form">
+      <div class="title">Cadastro de Notícias</div>
+      <input type="text" placeholder="Seu endereço de email" class="input" id="email" />
+      <textarea placeholder="Descreva o ocorrido" id="description"></textarea>
+      <button type="submit">Enviar</button>
+      <div class="paste-button">
+        <button type="button" class="button">Categoria</button>
+        <div class="dropdown-content">
+          <a id="top" href="#">Segurança</a>
+          <a id="middle" href="#">Saúde</a>
+          <a id="bottom" href="#">Educação</a>
+        </div>
+      </div>
+    </form>
+    <div id="newsContainer"></div>
+  </div>
+
+  <script type="text/javascript" src="noticia.js"></script>
+</body>
+
+</html>
