@@ -2,7 +2,6 @@
 
 const rolagens = document.querySelectorAll(".rolagem");
 
-// Verifica se o usuário não prefere redução de movimento
 if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   adicionarAnimacao();
 }
@@ -11,7 +10,6 @@ function adicionarAnimacao() {
   rolagens.forEach((rolagem) => {
     rolagem.setAttribute("data-animado", true);
 
-    // Define direção e velocidade
     const direcao = rolagem.getAttribute("data-direcao");
     const velocidade = rolagem.getAttribute("data-velocidade");
 
@@ -38,9 +36,7 @@ function adicionarAnimacao() {
 
 // ANIMACAO TEXTO VIDEO
 
-const textoItemHeaders = document.querySelectorAll(
-  ".texto-item-header"
-);
+const textoItemHeaders = document.querySelectorAll(".texto-item-header");
 
 textoItemHeaders.forEach((textoItemHeader) => {
   textoItemHeader.addEventListener("click", () => {
@@ -65,14 +61,32 @@ textoItemHeaders.forEach((textoItemHeader) => {
   });
 });
 
-// Abrir automaticamente o primeiro item do acordeão ao carregar a página
 document.addEventListener("DOMContentLoaded", () => {
-  const primeiroTextoItemHeader = document.querySelector(
-    ".texto-item-header"
-  );
+  const primeiroTextoItemHeader = document.querySelector(".texto-item-header");
   primeiroTextoItemHeader.classList.add("active");
   const primeiroTextoItemBody = primeiroTextoItemHeader.nextElementSibling;
   primeiroTextoItemBody.style.maxHeight =
     primeiroTextoItemBody.scrollHeight + "px";
 });
 
+// Carrosel Dados
+
+document.addEventListener("DOMContentLoaded", () => {
+  const slides = document.querySelectorAll(".item-carrossel");
+  let indiceAtual = 0;
+
+  function mostrarSlide(indice) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("ativo", i === indice);
+    });
+  }
+
+  function proximoSlide() {
+    indiceAtual = (indiceAtual + 1) % slides.length;
+    mostrarSlide(indiceAtual);
+  }
+
+  mostrarSlide(indiceAtual);
+
+  setInterval(proximoSlide, 5000);
+});

@@ -157,15 +157,12 @@ h3 {
   width: 100%;
   border-radius: 3px;
   overflow: hidden;
-  padding: 20px;
   box-sizing: border-box;
 }
 
 .panel {
   display: none;
   animation: fadein 0.8s;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 @keyframes fadein {
@@ -217,6 +214,8 @@ h3 {
   grid-template-columns: auto 600px;
   gap: 70px;
   justify-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 #video-youtube {
@@ -283,6 +282,8 @@ h3 {
   margin-top: 100px;
   display: grid;
   gap: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 #titulo-desenhos {
@@ -327,9 +328,179 @@ h3 {
   transform: scale(1.07);
 }
 
+.container-carrossel {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: grid;
+}
+
+.slide-carrossel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.item-carrossel {
+  min-width: 100%;
+  box-sizing: border-box;
+  display: none;
+}
+
+.item-carrossel.ativo {
+  display: block;
+}
+
+#porcentagem-brasileiros-golpe {
+  margin-top: 100px;
+  padding: 60px 420px;
+  background: linear-gradient(to right, #023371, #023e8a, #0077b6);
+  color: #f8f7f4;
+  justify-content: center;
+}
+
+#porcentagem-brasileiros-golpe2 {
+  margin-top: 100px;
+  padding: 60px 420px;
+  background: linear-gradient(to right, #023371, #023e8a, #0077b6);
+  color: #f8f7f4;
+  justify-content: center;
+}
+
+#porcentagem-brasileiros-golpe3 {
+  margin-top: 100px;
+  padding: 60px 420px;
+  background: linear-gradient(to right, #023371, #023e8a, #0077b6);
+  color: #f8f7f4;
+  justify-content: center;
+}
+
+#porcentagem-info {
+  display: flex;
+  gap: 40px;
+}
+
+#porcentagem-info3 {
+  display: flex;
+}
+
+#porcentagem-info3 h1 {
+  font-size: 7rem;
+  font-family: "Lora", serif;
+}
+
+#porcentagem-info3 h2 {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 500px;
+  justify-self: center;
+}
+
+#porcentagem-info h1 {
+  font-size: 7rem;
+  font-family: "Lora", serif;
+}
+
+#porcentagem-info h2 {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 500px;
+  justify-self: center;
+}
+
+#porcentagem-brasileiros-golpe h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+#porcentagem-brasileiros-golpe2 h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+#porcentagem-brasileiros-golpe3 h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+#cor-fonte {
+  text-align: center;
+  font-family: "Lora", serif;
+  color: #f8f7f4;
+}
+
+#cor-fonte:hover {
+  text-decoration: underline;
+}
+
+.perguntas-frequentes {
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  display: grid;
+  gap: 30px;
+}
+
+.perguntas-frequentes h1 {
+  font-family: "Lora", serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #01012f;
+}
+
+.accordion {
+  display: grid;
+  gap: 15px;
+}
+
+.accordion-button {
+  font-family: "Lora", serif;
+  font-size: 1.4rem;
+  color: #01012f;
+}
+
+.accordion-body {
+  font-family: "PT Serif", serif;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+#footer-sofia {
+  margin: 100px 120px 40px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-texto {
+  max-width: 500px;
+  font-weight: bolder;
+  color: #01012f;
+  font-family: "Lora", serif;
+}
+
+#footer-info {
+  font-family: "Lora", serif;
+  color: dimgray;
+}
+
 /* A SOFIA */
 
-.info-inicial {
+#aba-sofia {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#info-inicial {
   position: relative;
   display: flex;
   justify-content: center;
@@ -338,7 +509,7 @@ h3 {
   margin-top: 20px;
 }
 
-.info-inicial p {
+#info-inicial p {
   position: relative;
   font-family: "Lora", serif;
   font-weight: 500;
