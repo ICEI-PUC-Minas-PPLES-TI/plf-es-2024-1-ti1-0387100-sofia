@@ -38,6 +38,17 @@ a {
     margin: 15px 0;
 }
 
+.logo-login img{
+  height: 50px;
+  /* margin-top: 25px;
+  margin-left: 80px; */
+}
+
+.logo-login {
+    display: grid;
+    justify-content: center;
+}
+
 button {
     border-radius: 20px;
     border: 1px solid #0077b6;
