@@ -624,6 +624,9 @@ h3 {
 .estatuto-secao {
   display: grid;
   grid-template-columns: 1fr 700px;
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .estatuto-paragrafo {
