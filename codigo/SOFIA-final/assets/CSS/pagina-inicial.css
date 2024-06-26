@@ -230,7 +230,7 @@ main {
   color: #7ed956;
 }
 #busca {
-  width: 300px;
+  max-width: 300px;
   background-color: #f8f7f4;
   border: 1px solid rgb(0, 150, 199, 0.7);
   border-radius: 10px;
