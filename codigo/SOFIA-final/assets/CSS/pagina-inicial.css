@@ -111,6 +111,11 @@ h3 {
   color: #00013e;
 }
 
+#denuncia-menu a,
+#mapa-menu a,
+#destaque-menu a {
+  color: #00013e;
+}
 #login-menu a {
   display: grid;
   justify-content: center;
@@ -120,7 +125,9 @@ h3 {
   height: 40px;
 }
 
-#cadastro-menu a:hover {
+#denuncia-menu a:hover,
+#mapa-menu a:hover,
+#destaque-menu a:hover {
   text-decoration: underline;
 }
 
