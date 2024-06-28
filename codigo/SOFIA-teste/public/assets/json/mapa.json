@@ -1,0 +1,12 @@
+[
+  { "nome": "Região Centro", "coords": [-19.92273, -43.94519], "risco": 60 },
+  { "nome": "Região Norte", "coords": [-19.8704, -43.9346], "risco": 30 },
+  { "nome": "Região Venda Nova", "coords": [-19.817, -43.9476], "risco": 50 },
+  { "nome": "Região Pampulha", "coords": [-19.8551, -43.9623], "risco": 40 },
+  { "nome": "Região Noroeste", "coords": [-19.9061, -43.9779], "risco": 60 },
+  { "nome": "Região Centro-Sul", "coords": [-19.9359, -43.9376], "risco": 90 },
+  { "nome": "Região Oeste", "coords": [-19.9459, -43.9659], "risco": 80 },
+  { "nome": "Região Barreiro", "coords": [-19.9766, -44.0154], "risco": 70 },
+  { "nome": "Região Leste", "coords": [-19.9166, -43.9264], "risco": 20 },
+  { "nome": "Região Nordeste", "coords": [-19.8956, -43.9054], "risco": 10 }
+]

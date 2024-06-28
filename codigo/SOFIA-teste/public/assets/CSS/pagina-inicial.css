@@ -1,0 +1,305 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f7f4;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+/* Animacao inicial */
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #edf2fb, #d7e3fc, #c1d3fe, #abc4ff);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/codigo/SOFIA-final/assets/img/fundo-1.jpg");
+}
+
+.loader {
+  animation: spin 2s linear infinite;
+}
+
+.logo-flex-carregamento {
+  display: flex;
+  gap: 20px;
+}
+
+.texto-flex-carregamento {
+  display: grid;
+}
+
+#texto-welcome {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.loader img {
+  width: 80px;
+}
+
+#sofia-logo-carregamento {
+  height: 80px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Cabecalho */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  /* margin-left: 80px; */
+  /* margin-right: 80px; */
+  padding-top: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  /* padding-bottom: 20px; */
+}
+
+.logo-header img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.menu li {
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+#cadastro-menu a {
+  color: #00013e;
+}
+
+#denuncia-menu a,
+#mapa-menu a,
+#destaque-menu a {
+  color: #00013e;
+}
+#login-menu a {
+  display: grid;
+  justify-content: center;
+}
+
+#login-menu a img {
+  height: 40px;
+}
+
+#denuncia-menu a:hover,
+#mapa-menu a:hover,
+#destaque-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Mensagem Bem-Vindo */
+#principal-welcome {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  justify-content: center;
+  gap: 20px;
+}
+
+#principal-welcome img {
+  max-height: 350px;
+}
+
+#textos-bemvindo {
+  display: grid;
+  align-self: center;
+  max-width: 700px;
+  gap: 20px;
+  text-align: center;
+}
+
+#textos-bemvindo h1 {
+  font-family: "Lora", serif;
+  color: #023e8a;
+  font-size: 3.7rem;
+}
+
+#textos-bemvindo p {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+}
+
+/* Notícias */
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+#titulo-recentes {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 2.5rem;
+  font-family: "Lora", serif;
+  color: #01012f;
+}
+
+#noticias {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 100px;
+}
+
+.artigo {
+  display: grid;
+  max-width: 300px;
+  max-height: 800px;
+  padding: 0px 25px 25px 25px;
+  text-align: center;
+}
+
+.artigo img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 270px;
+  height: 213px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.artigo:hover {
+  transform: scale(1.02);
+}
+
+.info-artigo {
+  display: grid;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  max-width: 250px;
+  height: 200px;
+  align-content: center;
+  justify-items: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.info-artigo h2 {
+  font-size: 1.5rem;
+  font-family: "Lora", serif;
+  padding: 20px;
+  color: black;
+}
+
+.economia {
+  color: #7ed956;
+}
+#busca {
+  max-width: 300px;
+  background-color: #f8f7f4;
+  border: 1px solid rgb(0, 150, 199, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+#busca h2 {
+  margin-top: 0;
+}
+
+#busca form {
+  display: flex;
+  flex-direction: column;
+}
+
+#busca input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#busca button {
+  padding: 10px;
+  border: none;
+  background-color: #00013e;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#busca button:hover {
+  background-color: rgb(0, 1, 61, 0.8);
+}
+
+#principal-categorias h2 {
+  font-family: "Lora", serif;
+  color: #01012f;
+  font-size: 1.8rem;
+}
+
+#principal-categorias {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.categoria-opcao {
+  margin-top: 15px;
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+
+#footer-sofia {
+  margin: 100px 120px 40px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-texto {
+  max-width: 500px;
+  font-weight: bolder;
+  color: #01012f;
+  font-family: "Lora", serif;
+}
+
+#footer-info {
+  font-family: "Lora", serif;
+  color: dimgray;
+}
