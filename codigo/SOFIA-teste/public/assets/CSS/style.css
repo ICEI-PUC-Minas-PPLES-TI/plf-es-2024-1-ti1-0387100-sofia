@@ -149,6 +149,11 @@ h3 {
     color: #00013e;
     z-index: 999;
   }
+
+  #fechar-circulo {
+    color: white;
+  }
+
   #menuToggle:checked ~ label i:nth-child(2) {
     display: block;
   }
@@ -169,7 +174,6 @@ h3 {
     font-size: 1.7em;
   }
 }
-
 
 /* Secao Texto Inicial */
 
@@ -196,6 +200,78 @@ h3 {
   font-family: "Lora", serif;
   color: #01012f;
   margin-top: 5px;
+}
+
+@media (max-width: 1060px) {
+  .mensagem-inicial h1 {
+    font-size: 2rem;
+    font-family: "Lora", serif;
+    color: #01012f;
+    max-width: 940px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #texto-digitar {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .mensagem-inicial h1 {
+    font-size: 1.7rem;
+    font-family: "Lora", serif;
+    color: #01012f;
+    max-width: 940px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #texto-digitar {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .mensagem-inicial {
+    margin-top: 120px;
+    display: grid;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .mensagem-inicial h1 {
+    font-size: 1.4rem;
+    font-family: "Lora", serif;
+    color: #01012f;
+    max-width: 940px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #texto-digitar {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .mensagem-inicial h1 {
+    font-size: 1.2rem;
+    font-family: "Lora", serif;
+    color: #01012f;
+    max-width: 940px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #texto-digitar {
+    font-size: 1.2rem;
+  }
 }
 
 /* ABAS */
@@ -302,6 +378,45 @@ h3 {
 #sete:checked ~ .tabs #seven-tab {
   background: #023e8a;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-secundario {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .tabs label {
+    padding: 10px 15px;
+  }
+
+  #one-tab {
+    font-size: 1.2rem; /* Ajuste conforme necessário */
+  }
+}
+
+@media (max-width: 900px) {
+  #one-tab {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 600px) {
+  #one-tab {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .nav-secundario {
+    display: flex;
+    font-size: 0.7rem;
+    gap: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+  }
 }
 
 /* INICIO */
