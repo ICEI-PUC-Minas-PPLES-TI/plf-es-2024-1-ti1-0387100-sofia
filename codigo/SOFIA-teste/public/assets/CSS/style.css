@@ -485,11 +485,67 @@ h3 {
   font-size: 1.1rem;
 }
 
-@media (max-width: 767px) {
-  html {
-    font-size: 14px;
+@media (max-width: 1245px) {
+  .intro-video {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    justify-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
   }
 }
+
+@media (max-width: 900px) {
+  .texto-item-header {
+    font-size: 1.2rem;
+  }
+  .texto-item-body-content {
+    font-size: 1rem;
+  }
+  #video-youtube {
+    width: 450px;
+  }
+  .intro-video {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .texto-item-header {
+    font-size: 1.1rem;
+  }
+  .texto-item-body-content {
+    font-size: 1rem;
+  }
+  .texto-item-header {
+    font-size: 1 rem;
+  }
+  .texto-item-body-content {
+    font-size: 0.8rem;
+  }
+  #video-youtube {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 500px) {
+  .intro-video {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  #video-youtube {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+/* DESENHOS */
 
 #desenhos-beneficios {
   margin-top: 100px;
@@ -504,7 +560,7 @@ h3 {
   font-size: 2.5rem;
   text-align: center;
   justify-self: center;
-  width: 600px;
+  max-width: 600px;
   color: #01012f;
 }
 
@@ -534,13 +590,70 @@ h3 {
 }
 
 .card-conteudo img {
-  height: 260px;
+  max-height: 260px;
 }
 
 .card-conteudo:hover img {
   transform: scale(1.07);
 }
 
+@media (max-width: 1085px) {
+  #titulo-desenhos {
+    font-size: 2rem;
+  }
+  #desenhos-beneficios {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #cards-inicio {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  #desenhos-beneficios {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 800px) {
+  #titulo-desenhos {
+    font-size: 1.8rem;
+  }
+  #cards-inicio {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  } 
+  #desenhos-beneficios {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-conteudo h2 {
+    font-family: "Lora", serif;
+    font-size: 1.1rem;
+    color: #01012f;
+  }
+  
+  .card-conteudo p {
+    font-family: "PT Serif", serif;
+    font-size: 1.1rem;
+  }
+  #titulo-desenhos {
+    font-size: 1.5rem;
+  }
+  .card-conteudo img {
+    max-height: 200px;
+  }
+}
+
+/* CARROSSEL */
 .container-carrossel {
   position: relative;
   max-width: 100%;
