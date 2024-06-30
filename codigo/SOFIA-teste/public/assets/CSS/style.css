@@ -627,7 +627,7 @@ h3 {
     display: grid;
     grid-template-columns: auto;
     gap: 20px;
-  } 
+  }
   #desenhos-beneficios {
     margin-left: 20px;
     margin-right: 20px;
@@ -640,7 +640,7 @@ h3 {
     font-size: 1.1rem;
     color: #01012f;
   }
-  
+
   .card-conteudo p {
     font-family: "PT Serif", serif;
     font-size: 1.1rem;
@@ -768,6 +768,14 @@ h3 {
   text-decoration: underline;
 }
 
+@media (max-width: 1200px) {
+  .container-carrossel {
+    display: none;
+  }
+}
+
+/* PERGUNTAS FREQUENTES */
+
 .perguntas-frequentes {
   margin-top: 100px;
   margin-left: 300px;
@@ -799,6 +807,108 @@ h3 {
   font-size: 1.1rem;
   line-height: 1.3;
 }
+
+@media (max-width: 1245px) {
+  .perguntas-frequentes {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .perguntas-frequentes {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .perguntas-frequentes h1 {
+    font-family: "Lora", serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #01012f;
+  }
+  .accordion-button {
+    font-family: "Lora", serif;
+    font-size: 1.3rem;
+    color: #01012f;
+  }
+
+  .accordion-body {
+    font-family: "PT Serif", serif;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 800px) {
+  .perguntas-frequentes {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+  }
+
+  .perguntas-frequentes h1 {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .perguntas-frequentes {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 60px;
+  }
+  .perguntas-frequentes h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .perguntas-frequentes {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+  }
+  .accordion-button {
+    font-family: "Lora", serif;
+    font-size: 1.1rem;
+    color: #01012f;
+  }
+
+  .accordion-body {
+    font-family: "PT Serif", serif;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 500px) {
+  .perguntas-frequentes {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .perguntas-frequentes {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+  }
+  .accordion-button {
+    font-family: "Lora", serif;
+    font-size: 1rem;
+    color: #01012f;
+  }
+
+  .accordion-body {
+    font-family: "PT Serif", serif;
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+}
+
+/* FOOTER */
 
 #footer-sofia {
   margin: 100px 120px 40px 120px;
