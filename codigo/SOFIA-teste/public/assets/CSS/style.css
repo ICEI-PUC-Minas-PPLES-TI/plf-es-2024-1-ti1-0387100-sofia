@@ -643,7 +643,7 @@ h3 {
 
   .card-conteudo p {
     font-family: "PT Serif", serif;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
   #titulo-desenhos {
     font-size: 1.5rem;
@@ -1089,6 +1089,61 @@ h3 {
   /* text-align: center; */
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
+}
+
+@media (max-width: 1100px) {
+  #info-inicial p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  #info-inicial p {
+    font-size: 1.2rem;
+  }
+  #aba-sofia {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  #info-inicial p {
+    font-size: 1.1rem;
+  }
+  #aba-sofia {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  #info-inicial p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #info-inicial p {
+    font-size: 0.9rem;
+  }
+  #aba-sofia {
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  #info-inicial p {
+    font-size: 0.9rem;
+  }
+  #aba-sofia {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
 
 /* GOLPES */
