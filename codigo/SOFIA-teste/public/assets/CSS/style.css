@@ -1209,3 +1209,89 @@ h3 {
   align-content: center;
   padding: 20px;
 }
+
+@media (max-width: 1300px) {
+  .estatuto-secao {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .estatuto-secao {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .estatuto-secao {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 900px) {
+  .estatuto-paragrafo {
+    font-family: "PT Serif", serif;
+    line-height: 1.2;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .estatuto-paragrafo {
+    font-family: "PT Serif", serif;
+    line-height: 1.2;
+    font-size: 1.1rem;
+    display: grid;
+    gap: 15px;
+    align-content: none;
+    padding: 0px;
+  }
+  .estatuto-secao {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #pdf-idoso {
+    width: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  #pdf-idoso {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 650px) {
+  .estatuto-paragrafo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  #pdf-idoso {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  #pdf-idoso {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  #pdf-idoso {
+    width: 300px;
+    height: 160px;
+  }
+}
