@@ -1,0 +1,124 @@
+{
+    "informativos": [
+    {
+      "id": 1,
+      "titulo": "Golpe do Empréstimo Consignado: saiba como se proteger",
+      "imagem": "../public/assets//img/golpe_consignado.png",
+      "conteudo": "O Crédito consignado tem servido como isca para criminosos atraírem funcionários públicos, aposentados e pensionistas do INSS. Saiba como identificar esse tipo de golpe e se proteger das ameaças.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-05-19"
+    },
+    {
+      "id": 2,
+      "titulo": "Golpe da compra falsa no cartão de crédito",
+      "imagem": "../public/assets/img/golpe_compraFalsa.png",
+      "conteudo": "Você sabe o que fazer em caso de golpe ou fraude no cartão de crédito? Veja como se proteger. A instituição financeira tem o dever de resguardar seu cliente desse tipo de fraude, e caso ocorra ela deverá tomar as devidas providências.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-05-18"
+  },
+  {
+      "id": 3,
+      "titulo": "INSS alerta contra golpe da prova de vida",
+      "imagem": "../public/assets/img/inss_alerta.png",
+      "conteudo": "Instituto Nacional do Seguro Social (INSS) faz novo alerta sobre tentativa de golpe contra aposentados e pensionistas: pessoas mal-intencionadas estão se passando por servidores do instituto e visitam os beneficiários em casa para, supostamente, fazer a comprovação de vida. Eles costumam solicitar fotos, dados e documentos ao cidadão.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-05-17"
+  },
+    {
+      "id": 4,
+      "titulo": "Golpe do Falso Suporte Técnico: Como Evitar Ser Vítima",
+      "imagem": "../public/assets/img/golpe_falso_suporte.png",
+      "conteudo": "Os golpistas se passam por técnicos de suporte de grandes empresas e solicitam acesso remoto ao seu computador. Saiba como reconhecer esses golpes e proteger seu dispositivo.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-01"
+    },
+    {
+      "id": 5,
+      "titulo": "Phishing: Aprenda a Reconhecer e Proteger Suas Informações",
+      "imagem": "../public/assets/img/golpe_phishing.png",
+      "conteudo": "Phishing é uma técnica usada para roubar informações pessoais e financeiras. Veja como identificar e evitar cair nessa armadilha.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-05"
+    },
+    {
+      "id": 6,
+      "titulo": "Fraudes em Compras Online: Dicas para Comprar com Segurança",
+      "imagem": "../public/assets/img/golpe_compras_online.png",
+      "conteudo": "Conheça os principais tipos de fraudes em compras online e aprenda a se proteger ao fazer suas compras na internet.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-10"
+    },
+    {
+      "id": 7,
+      "titulo": "Roubo de Identidade: Como Proteger Seus Dados Pessoais",
+      "imagem": "../public/assets/img/golpe_roubo_identidade.png",
+      "conteudo": "O roubo de identidade pode causar sérios prejuízos. Descubra como proteger suas informações pessoais e evitar esse tipo de crime.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-15"
+    },
+    {
+      "id": 8,
+      "titulo": "Golpes em Redes Sociais: Sinais de Alerta e Prevenção",
+      "imagem": "../public/assets/img/golpe_redes_sociais.png",
+      "conteudo": "As redes sociais são um terreno fértil para golpistas. Aprenda a identificar sinais de golpes e proteger sua privacidade online.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-20"
+    },
+    {
+      "id": 9,
+      "titulo": "Falsos Empréstimos Online: Como Identificar e Evitar",
+      "imagem": "../public/assets/img/golpe_falsos_emprestimos.png",
+      "conteudo": "Saiba como identificar ofertas de empréstimos fraudulentos e evitar cair em golpes que prometem dinheiro fácil.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-25"
+    },
+    {
+      "id": 10,
+      "titulo": "Criptomoedas e Golpes: Como Investir com Segurança",
+      "imagem": "../public/assets/img/golpe_criptomoedas.png",
+      "conteudo": "O mercado de criptomoedas atrai muitos investidores e golpistas. Veja como investir de forma segura e evitar fraudes.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-30"
+    },
+    {
+      "id": 11,
+      "titulo": "Golpes de Leilão Online: Evite Perder Seu Dinheiro",
+      "imagem": "../public/assets/img/golpe_leilao_online.png",
+      "conteudo": "Leilões online podem ser uma armadilha para consumidores desavisados. Aprenda a identificar golpes e participar de leilões com segurança.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-05"
+    },
+    {
+      "id": 12,
+      "titulo": "Aplicativos Falsos: Como Detectar e Evitar Downloads Perigosos",
+      "imagem": "../public/assets/img/golpe_aplicativos_falsos.png",
+      "conteudo": "Aplicativos falsos podem comprometer a segurança do seu dispositivo. Descubra como reconhecer e evitar baixar apps maliciosos.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-10"
+    },
+    {
+      "id": 13,
+      "titulo": "Golpe do Boleto Falso: Medidas de Segurança para Pagamentos",
+      "imagem": "../public/assets/img/golpe_boleto_falso.png",
+      "conteudo": "O golpe do boleto falso é uma prática comum que pode causar grandes prejuízos. Saiba como verificar a autenticidade dos boletos e pagar com segurança.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-15"
+    },
+    {
+      "id": 14,
+      "titulo": "E-mails Fraudulentos: Estratégias para Não Cair em Armadilhas",
+      "imagem": "../public/assets/img/golpe_emails_fraudulentos.png",
+      "conteudo": "E-mails fraudulentos são usados para enganar e roubar informações pessoais. Aprenda a identificar e-mails suspeitos e se proteger.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-20"
+    },
+    {
+      "id": 15,
+      "titulo": "Golpes de Caridade Falsas: Como Doar de Forma Segura",
+      "imagem": "../public/assets/img/golpe_caridade_falsa.png",
+      "conteudo": "Golpistas se aproveitam da generosidade das pessoas para criar falsas campanhas de caridade. Descubra como verificar a autenticidade das organizações e doar de forma segura.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-25"
+    }
+  ]
+}
