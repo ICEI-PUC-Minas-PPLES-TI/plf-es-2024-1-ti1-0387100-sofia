@@ -1091,6 +1091,45 @@ h3 {
   font-size: 1rem;
 }
 
+@media (max-width: 1245px) {
+  .quem-somos {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .quem-somos p {
+    text-align: center;
+  }
+
+  .rolagem {
+    width: 100%;
+  }
+  #aba-sofia {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .quem-somos p {
+    font-size: 3rem;
+    font-family: "Julius Sans One", sans-serif;
+    align-self: none;
+    text-align: center;
+    color: rgb(0, 119, 182, 0.7);
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .quem-somos p {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 1100px) {
   #info-inicial p {
     font-size: 1.3rem;
@@ -1115,6 +1154,10 @@ h3 {
     margin-top: 50px;
     margin-left: 80px;
     margin-right: 80px;
+  }
+  .card img {
+    display: block;
+    height: 250px;
   }
 }
 
