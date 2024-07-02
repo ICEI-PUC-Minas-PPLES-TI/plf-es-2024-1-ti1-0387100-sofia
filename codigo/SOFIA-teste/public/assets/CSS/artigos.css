@@ -85,6 +85,50 @@ header a img {
   color: #023e8a;
 }
 
+/* COMENTARIO */
+
+#comentarios-texto {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#secao-comentarios {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#formulario-comentario {
+  margin-bottom: 20px;
+}
+
+#entrada-comentario {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#lista-comentarios {
+  margin-top: 20px;
+}
+
+.comentario {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.botoes-comentario {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botoes-comentario button {
+  margin-left: 10px;
+}
+
 /* Footer */
 
 #footer-sofia {
