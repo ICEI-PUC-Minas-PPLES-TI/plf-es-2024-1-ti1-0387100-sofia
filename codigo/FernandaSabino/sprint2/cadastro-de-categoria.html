@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Categorias</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .logo {
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-primary text-white p-3 mb-5">
+    <div class="container d-flex justify-content-between align-items-center">
+      <img src="logo.png" alt="Logo" class="logo">
+    </div>
+  </header>
+  
+  <div class="container">
+    <form id="categoryForm">
+      <div class="form-group">
+        <h1>Cadastro de Categorias</h1>
+        <label for="categoryName">Nome da Categoria</label>
+        <input type="text" class="form-control" id="categoryName" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Adicionar Categoria</button>
+    </form>
+    <h2 class="mt-5">Lista de Categorias</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="categoryList"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
