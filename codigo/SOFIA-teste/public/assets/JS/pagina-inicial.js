@@ -32,9 +32,9 @@ fetch("http://localhost:3000/informativos")
             <img src="${itemCard.imagem}" alt="${itemCard.titulo}">
             <p>${itemCard.dataDePublicacao.split("-").reverse().join("/")}</p>
                 <div class="social-buttons">
-                <a href="#" class="social-button" data-share-url="${facebookShareURL}"><img src="../assets/img/facebook-icon.png" alt="Compartilhar no Facebook"></a>
-                <a href="#" class="social-button" data-share-url="${instagramShareURL}"><img src="../assets/img/instagram-icon.png" alt="Compartilhar no Instagram"></a>
-                <a href="#" class="social-button" data-share-url="${whatsappShareURL}"><img src="../assets/img/whatsapp-icon.png" alt="Compartilhar no WhatsApp"></a>
+                <a href="#" class="social-button" data-share-url="${facebookShareURL}"><img src="../assets/icones/facebook-icon.svg" alt="Compartilhar no Facebook"></a>
+                <a href="#" class="social-button" data-share-url="${instagramShareURL}"><img src="../assets/icones/instagram-icon.svg" alt="Compartilhar no Instagram"></a>
+                <a href="#" class="social-button" data-share-url="${whatsappShareURL}"><img src="../assets/icones/whatsapp-icon.svg" alt="Compartilhar no WhatsApp"></a>
             </div> `;
         itemElemento.addEventListener("click", () => {
           window.location.href = `../pages/artigos.html?id=${itemCard.id}`; // Supondo que você tenha um arquivo detalhes.html para redirecionar

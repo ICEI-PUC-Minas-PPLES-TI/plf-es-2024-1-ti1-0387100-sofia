@@ -393,60 +393,13 @@ main {
   cursor: pointer;
 }
 .social-button img {
-  width: 50px;
-  height: 50px;
+  max-width: 40px;
+  max-height: 40px;
 }
-
-/* 
-#noticias {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin-left: 100px;
-}
-.feed {
-  display: grid;
-  max-width: 300px;
-  max-height: 800px;
-  padding: 0px 25px 25px 25px;
-  text-align: center;
-}
-.artigo img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 270px;
-  height: 213px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-}
-
-.artigo:hover {
-  transform: scale(1.02);
-}
-
-.info-artigo {
-  display: grid;
-  background-color: white;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  max-width: 250px;
-  height: 200px;
-  align-content: center;
-  justify-items: center;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-}
-
-.info-artigo h2 {
-  font-size: 1.5rem;
-  font-family: "Lora", serif;
-  padding: 20px;
-  color: black;
-}
-
-.economia {
-  color: #7ed956;
-} */
 
 /*busca lateral*/
 #busca {
+  margin-top: 20px;
   max-width: 300px;
   background-color: #f8f7f4;
   border: 1px solid rgb(0, 150, 199, 0.7);
