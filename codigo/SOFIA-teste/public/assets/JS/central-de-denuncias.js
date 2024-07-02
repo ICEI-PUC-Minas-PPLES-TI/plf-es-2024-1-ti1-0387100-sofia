@@ -1,73 +1,121 @@
-document
-  .getElementById("reportForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
-    addReport();
-  });
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('reportForm');
+  const reportList = document.getElementById('reportList');
 
-let reports = JSON.parse(localStorage.getItem("reports")) || [];
+  const baseURL = 'http://localhost:3000/reports';
 
-function addReport() {
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const city = document.getElementById("city").value;
-  const report = document.getElementById("report").value;
+  function loadReports() {
+      fetch(baseURL)
+          .then(response => response.json())
+          .then(reports => {
+              reportList.innerHTML = '';
+              reports.forEach(report => {
+                  const card = createReportCard(report);
+                  reportList.appendChild(card);
+              });
+          });
+  }
 
-  const newReport = {
-    id: Date.now(),
-    name,
-    email,
-    city,
-    report,
-  };
-
-  reports.push(newReport);
-  localStorage.setItem("reports", JSON.stringify(reports));
-  displayReports();
-  document.getElementById("reportForm").reset();
-}
-
-function displayReports() {
-  const reportList = document.getElementById("reportList");
-  reportList.innerHTML = "";
-
-  reports.forEach((report) => {
-    const reportCard = document.createElement("div");
-    reportCard.classList.add("card");
-    reportCard.innerHTML = `
-          <h3>${report.name} (${report.city})</h3>
-          <p>${report.email}</p>
-          <p>${report.report}</p>
-          <button class="delete" onclick="deleteReport(${report.id})">Deletar</button>
-          <button class="edit" onclick="editReport(${report.id})">Editar</button>
-          <button class="view" onclick="viewReport(${report.id})">Ver</button>
+  function createReportCard(report) {
+      const card = document.createElement('div');
+      card.classList.add('card');
+      card.innerHTML = `
+          <p><strong>Nome:</strong> ${report.name}</p>
+          <p><strong>Email:</strong> ${report.email}</p>
+          <p><strong>Cidade:</strong> ${report.city}</p>
+          <p><strong>Relato:</strong> ${report.report}</p>
+          <button class="edit" data-id="${report.id}">Editar</button>
+          <button class="view" data-id="${report.id}">Ver</button>
+          <button class="delete" data-id="${report.id}">Deletar</button>
       `;
-    reportList.appendChild(reportCard);
+      card.querySelector('.edit').addEventListener('click', editReport);
+      card.querySelector('.view').addEventListener('click', viewReport);
+      card.querySelector('.delete').addEventListener('click', deleteReport);
+      return card;
+  }
+
+  form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      const formData = new FormData(form);
+      const newReport = {
+          name: formData.get('name'),
+          email: formData.get('email'),
+          city: formData.get('city'),
+          report: formData.get('report')
+      };
+
+      fetch(baseURL, {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(newReport)
+      })
+      .then(response => response.json())
+      .then(() => {
+          form.reset();
+          loadReports();
+      });
   });
-}
 
-function deleteReport(id) {
-  reports = reports.filter((report) => report.id !== id);
-  localStorage.setItem("reports", JSON.stringify(reports));
-  displayReports();
-}
+  // Função para editar o relato
+  function editReport(event) {
+      const id = event.target.dataset.id;
+      fetch(`${baseURL}/${id}`)
+          .then(response => response.json())
+          .then(report => {
+              form.name.value = report.name;
+              form.email.value = report.email;
+              form.city.value = report.city;
+              form.report.value = report.report;
 
-function editReport(id) {
-  const report = reports.find((report) => report.id === id);
-  document.getElementById("name").value = report.name;
-  document.getElementById("email").value = report.email;
-  document.getElementById("city").value = report.city;
-  document.getElementById("report").value = report.report;
+              form.querySelector('button[type="submit"]').textContent = 'Salvar';
 
-  deleteReport(id);
-}
+              form.removeEventListener('submit', submitHandler);
+              form.addEventListener('submit', function (event) {
+                  event.preventDefault();
+                  const formData = new FormData(form);
+                  const updatedReport = {
+                      name: formData.get('name'),
+                      email: formData.get('email'),
+                      city: formData.get('city'),
+                      report: formData.get('report')
+                  };
 
-function viewReport(id) {
-  const report = reports.find((report) => report.id === id);
-  alert(
-    `Nome: ${report.name}\nEmail: ${report.email}\nCidade: ${report.city}\nRelato: ${report.report}`
-  );
-}
+                  fetch(`${baseURL}/${id}`, {
+                      method: 'PUT',
+                      headers: {
+                          'Content-Type': 'application/json'
+                      },
+                      body: JSON.stringify(updatedReport)
+                  })
+                  .then(response => response.json())
+                  .then(() => {
+                      form.reset();
+                      form.querySelector('button[type="submit"]').textContent = 'Enviar'; 
+                      form.removeEventListener('submit', submitHandler);
+                      loadReports();
+                  });
+              });
+          });
+  }
 
-// Inicializa a exibição dos relatórios ao carregar a página
-displayReports();
+  function viewReport(event) {
+      const id = event.target.dataset.id;
+      fetch(`${baseURL}/${id}`)
+          .then(response => response.json())
+          .then(report => {
+              alert(`Detalhes do Relato:\n\nNome: ${report.name}\nEmail: ${report.email}\nCidade: ${report.city}\nRelato: ${report.report}`);
+          });
+  }
+
+  function deleteReport(event) {
+      const id = event.target.dataset.id;
+      fetch(`${baseURL}/${id}`, {
+          method: 'DELETE'
+      })
+      .then(() => loadReports());
+  }
+  
+  loadReports();
+});
