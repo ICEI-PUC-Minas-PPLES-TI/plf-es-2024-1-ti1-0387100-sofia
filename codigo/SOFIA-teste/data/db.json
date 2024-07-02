@@ -266,6 +266,19 @@
       "risco": 15
     }
   ],
-  "reports": [],
-  "comentarios": []
+  "reports": [
+    {
+      "id": "7684",
+      "name": "Lucas",
+      "email": "lucas@email.com",
+      "city": "Belo Horizonte",
+      "report": "Relato exemplo!\nEste é um exemplo de relato para demonstrar a funcionalidade do CRUD usando o JSON-Server. Além disso, serve para mostrar a funcionalidade do Perfil, que busca o relato diretamente do JSON-Server."
+    }
+  ],
+  "comentarios": [
+    {
+      "id": "d502",
+      "texto": "Estou adorando os conteúdos da página. Continuem com o bom trabalho. PARABÉNS!!!"
+    }
+  ]
 }
