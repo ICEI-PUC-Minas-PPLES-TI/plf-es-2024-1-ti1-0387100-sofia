@@ -1189,7 +1189,96 @@ h3 {
   }
 }
 
-/* GOLPES */
+/* DICAS */
+
+#dicas-container {
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  display: grid;
+  gap: 20px;
+}
+
+.dicas-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.dicas-numero h1 {
+  font-size: 7rem;
+  color: #0077b6;
+  font-family: "Lora", serif;
+  text-align: right;
+}
+
+.dicas-texto h2 {
+  font-family: "Lora", serif;
+  color: #00013e;
+}
+
+.dicas-texto p {
+  font-family: "PT Serif", serif;
+}
+
+@media (max-width: 1200px) {
+  #dicas-container {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .dicas-texto h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .dicas-texto h2 {
+    font-size: 1.7rem;
+  }
+  #dicas-container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  #dicas-container {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .dicas-texto h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .dicas-texto p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 700px) {
+  #dicas-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .dicas-texto h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #dicas-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .dicas-texto h2 {
+    font-size: 1.1rem;
+  }
+  .dicas-texto p {
+    font-size: 0.8rem;
+  }
+}
 
 /* Estatuto do Idoso */
 .estatuto-secao {
