@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Demonstrativa</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header {
+            background-color: #d3d3d3;
+            padding: 10px 20px;
+        }
+        .logo {
+            background-color: #6b6b6b;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        .custom-button {
+            background-color: #6b6b6b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .user-info, .records {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .user-info img {
+            display: block;
+            margin: 0 auto 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header d-flex justify-content-between align-items-center">
+            <div class="logo">LOGO</div>
+            <button class="custom-button" onclick="login()">LOGIN</button>
+        </div>
+        <div class="row">
+            <div class="col-md-6 user-info">
+                <img src="https://via.placeholder.com/150" alt="User Icon" id="userIcon">
+                <p><strong>NOME:</strong> <span id="userName">Lucia Andrade</span></p>
+                <p><strong>EMAIL:</strong> <span id="userEmail">lucia.andrade@gmail.com</span></p>
+            </div>
+            <div class="col-md-6 records">
+                <button class="custom-button mb-3" onclick="registerRegion()">CADASTRAR REGIÃO</button>
+                <h3>REGISTROS</h3>
+                <p><strong>REGIÃO:</strong> <span id="region">Pampulha</span></p>
+                <p><strong>INCIDENTE:</strong> <span id="incident"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            const user = {
+                name: 'Lucia Andrade',
+                email: 'lucia.andrade@gmail.com'
+            };
+            localStorage.setItem('user', JSON.stringify(user));
+            alert('Usuário logado!');
+            loadUserData();
+        }
+
+        function registerRegion() {
+            const region = prompt('Digite a região:');
+            const incident = prompt('Descreva o incidente:');
+            if (region && incident) {
+                const registro = {
+                    region: region,
+                    incident: incident
+                };
+                localStorage.setItem('registro', JSON.stringify(registro));
+                alert('Região cadastrada com sucesso!');
+                loadRegistroData();
+            } else {
+                alert('Por favor, preencha todos os campos.');
+            }
+        }
+
+        function loadUserData() {
+            const user = JSON.parse(localStorage.getItem('user'));
+            if (user) {
+                document.getElementById('userName').textContent = user.name;
+                document.getElementById('userEmail').textContent = user.email;
+            }
+        }
+
+        
+        function loadRegistroData() {
+            const registro = JSON.parse(localStorage.getItem('registro'));
+            if (registro) {
+                document.getElementById('region').textContent = registro.region;
+                document.getElementById('incident').textContent = registro.incident;
+            }
+        }
+
+      
+        document.addEventListener('DOMContentLoaded', function() {
+            loadUserData();
+            loadRegistroData();
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
