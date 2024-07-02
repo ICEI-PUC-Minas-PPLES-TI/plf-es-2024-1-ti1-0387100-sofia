@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function getMarkerIcon(risco) {
       let iconUrl = "";
       if (risco <= 30) {
-        iconUrl = "/assets/icones/marker-green.png";
+        iconUrl = "../assets/icones/marker-green.png";
       } else if (risco <= 60) {
-        iconUrl = "/assets/icones/marker-yellow.png";
+        iconUrl = "../assets/icones/marker-yellow.png";
       } else {
-        iconUrl = "/assets/icones/marker-red.png";
+        iconUrl = "../assets/icones/marker-red.png";
       }
 
       return L.icon({
