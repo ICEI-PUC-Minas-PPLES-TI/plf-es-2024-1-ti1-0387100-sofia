@@ -1,18 +1,11 @@
 {
   "usuarios": [
     {
-      "id": "1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
-    {
-      "id": "2",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "b5d5",
+      "nome": "Lucas Nunes Leal Ledsham",
+      "login": "lucas123",
+      "email": "lucasledsham@hotmail.com",
+      "senha": "12345"
     }
   ],
   "informativos": [
