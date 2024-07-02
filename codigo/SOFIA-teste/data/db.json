@@ -6,6 +6,13 @@
       "login": "lucas123",
       "email": "lucasledsham@hotmail.com",
       "senha": "12345"
+    },
+    {
+      "id": "1d53",
+      "nome": "Administrador do Sistema",
+      "login": "admin",
+      "email": "admin@email.com",
+      "senha": "admin123"
     }
   ],
   "informativos": [
