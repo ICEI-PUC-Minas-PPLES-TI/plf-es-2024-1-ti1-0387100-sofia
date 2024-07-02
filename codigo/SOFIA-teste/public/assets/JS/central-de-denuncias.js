@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', function () {
       return card;
   }
 
-  form.addEventListener('submit', function (event) {
+  form.addEventListener('submit', submitHandler);
+
+  function submitHandler(event) {
       event.preventDefault();
       const formData = new FormData(form);
       const newReport = {
@@ -56,9 +58,8 @@ document.addEventListener('DOMContentLoaded', function () {
           form.reset();
           loadReports();
       });
-  });
+  }
 
-  // Função para editar o relato
   function editReport(event) {
       const id = event.target.dataset.id;
       fetch(`${baseURL}/${id}`)
@@ -72,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
               form.querySelector('button[type="submit"]').textContent = 'Salvar';
 
               form.removeEventListener('submit', submitHandler);
-              form.addEventListener('submit', function (event) {
+              form.addEventListener('submit', function updateHandler(event) {
                   event.preventDefault();
                   const formData = new FormData(form);
                   const updatedReport = {
@@ -93,10 +94,11 @@ document.addEventListener('DOMContentLoaded', function () {
                   .then(() => {
                       form.reset();
                       form.querySelector('button[type="submit"]').textContent = 'Enviar'; 
-                      form.removeEventListener('submit', submitHandler);
+                      form.removeEventListener('submit', updateHandler);
+                      form.addEventListener('submit', submitHandler);
                       loadReports();
                   });
-              });
+              }, { once: true });
           });
   }
 

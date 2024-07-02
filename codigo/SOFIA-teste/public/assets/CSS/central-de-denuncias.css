@@ -264,8 +264,8 @@ button:hover {
 
 .card button {
   position: absolute;
-  top: 40px;
-  right: 30px;
+  top: 0px;
+  right: 40px;
   background-color: #dc3545;
   border: none;
   color: #fff;
@@ -278,12 +278,15 @@ button:hover {
   background-color: #c82333;
 }
 
-.card .edit,
-.card .view {
+.card .edit {
   background-color: #007bff;
   right: auto;
   left: 480px;
   top: 0px;
+}
+
+.card .view {
+  right: auto;
 }
 
 .card .edit:hover {
@@ -336,10 +339,14 @@ button:hover {
     font-size: 0.9rem;
   }
 
-  .card .edit,
-  .card .view {
+  .card .edit {
     left: auto;
     top: 40px;
+    right: 100px;
+  }
+
+  .card .view {
+    left: auto;
     right: 100px;
   }
 }
@@ -372,12 +379,12 @@ button:hover {
     font-size: 0.8rem;
   }
 
-  .card .edit,
-  .card .view {
+  .card .edit {
     left: auto;
     top: 40px;
     right: 50px;
   }
+
 }
 
 /* Footer */
