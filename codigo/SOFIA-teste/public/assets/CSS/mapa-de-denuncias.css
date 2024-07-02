@@ -88,6 +88,108 @@ h3 {
   text-decoration: underline;
 }
 
+/* Menu Mobile */
+
+#menuToggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  .cabecalho {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f8f7f4;
+  }
+
+  #login-menu img {
+    color: white;
+  }
+
+  #denuncia-menu a,
+  #mapa-menu a,
+  #destaque-menu a {
+    color: white;
+  }
+
+  .cabecalho nav {
+    display: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .menu {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+  }
+
+  .menu li {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .menu li a {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-icon {
+    width: 50px;
+    height: inherit;
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    line-height: 60px;
+    color: #00013e;
+    z-index: 999;
+  }
+
+  #fechar-circulo {
+    color: white;
+  }
+
+  #menuToggle:checked ~ label i:nth-child(2) {
+    display: block;
+  }
+  #menuToggle:checked ~ label i:first-child {
+    display: none;
+  }
+  #menuToggle:not(:checked) ~ label i:first-child {
+    display: block;
+  }
+  #menuToggle:not(:checked) ~ label i:nth-child(2) {
+    display: none;
+  }
+
+  #menuToggle:checked ~ ul {
+    height: 100%;
+  }
+  .menu-icon i {
+    font-size: 1.7em;
+  }
+}
+
 /* CONTEUDO */
 
 .container {
@@ -105,20 +207,15 @@ h3 {
   color: #333;
 }
 
-
 .main-layout {
   display: flex;
   align-items: flex-start;
-
 }
 
 .subtitle {
-  transition: all 0.3s ease-in-out;
   color: #000;
   font-size: 24px;
   flex: 1;
-  margin-left: 250px;
-  margin-right: 250px;
   margin-bottom: 20px;
   padding: 25px;
   border: 1px solid #ddd;
@@ -127,7 +224,6 @@ h3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-
 
 .map-chart {
   display: flex;
@@ -181,6 +277,30 @@ canvas {
   margin-right: 10px;
 }
 
+@media (max-width: 1150px) {
+  .container {
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 850px) {
+  .subtitle {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .main-layout {
+    display: grid;
+  }
+  .map {
+    height: 350px;
+  }
+  .chart-container {
+    height: 350px;
+  }
+}
+
 /* Footer */
 
 #footer-sofia {
@@ -199,4 +319,41 @@ canvas {
 #footer-info {
   font-family: "Lora", serif;
   color: dimgray;
+}
+
+@media (max-width: 1100px) {
+  #footer-texto {
+    display: none;
+  }
+  #footer-info {
+    text-align: center;
+  }
+  #footer-sofia {
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #footer-info {
+    font-size: 0.9rem;
+  }
+  #footer-sofia {
+    margin: 60px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #footer-info {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #footer-info {
+    font-size: 0.7rem;
+  }
 }
