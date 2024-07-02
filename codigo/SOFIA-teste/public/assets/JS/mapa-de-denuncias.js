@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("json/data.json")
+  fetch("http://localhost:3000/regioes")
     .then((response) => response.json())
     .then((data) => {
       initializeMap(data);
@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function getMarkerIcon(risco) {
       let iconUrl = "";
       if (risco <= 30) {
-        iconUrl = "images/marker-green.png";
+        iconUrl = "/assets/icones/marker-green.png";
       } else if (risco <= 60) {
-        iconUrl = "images/marker-yellow.png";
+        iconUrl = "/assets/icones/marker-yellow.png";
       } else {
-        iconUrl = "images/marker-red.png";
+        iconUrl = "/assets/icones/marker-red.png";
       }
 
       return L.icon({
