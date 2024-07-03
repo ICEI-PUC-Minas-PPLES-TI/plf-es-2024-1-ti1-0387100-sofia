@@ -460,6 +460,20 @@ main {
   font-size: 1.2rem;
 }
 
+@media (max-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  #busca {
+    grid-row: 1;
+    /* display: grid;
+    justify-self: center; */
+    margin-right: 0px;
+  }
+}
+
 /* Footer */
 
 #footer-sofia {
