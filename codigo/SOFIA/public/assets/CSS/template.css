@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f8f7f4;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3 {
+    margin: 0px;
+  }
+  
+  /* Cabecalho */
+  
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    /* margin-left: 80px; */
+    /* margin-right: 80px; */
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* padding-bottom: 20px; */
+  }
+  
+  .logo-header img {
+    height: 50px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+  
+  .menu li {
+    font-size: 1.2rem;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  #cadastro-menu a {
+    color: #00013e;
+  }
+  
+  #login-menu a {
+    display: grid;
+    justify-content: center;
+  }
+  
+  #login-menu a img {
+    height: 40px;
+  }
+  
+  #cadastro-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  #denuncia-menu a {
+    text-decoration: underline;
+    color: #00013e;
+  }
+  
+  #denuncia-menu a,
+  #mapa-menu a,
+  #destaque-menu a {
+    color: #00013e;
+  }
+  
+  #destaque-menu a:hover,
+  #mapa-menu a:hover {
+    text-decoration: underline;
+  }
+ /* colocar conteudo aqui */
+  
+  /* Footer */
+  
+  #footer-sofia {
+    margin: 100px 120px 40px 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #footer-texto {
+    max-width: 500px;
+    font-weight: bolder;
+    color: #01012f;
+    font-family: "Lora", serif;
+  }
+  
+  #footer-info {
+    font-family: "Lora", serif;
+    color: dimgray;
+  }
+  

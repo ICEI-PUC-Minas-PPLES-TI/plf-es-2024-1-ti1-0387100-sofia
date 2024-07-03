@@ -1,0 +1,416 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f7f4;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+/* Cabecalho */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  /* margin-left: 80px; */
+  /* margin-right: 80px; */
+  padding-top: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  /* padding-bottom: 20px; */
+}
+
+.logo-header img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.menu li {
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+#cadastro-menu a {
+  color: #00013e;
+}
+
+#login-menu a {
+  display: grid;
+  justify-content: center;
+}
+
+#login-menu a img {
+  height: 40px;
+}
+
+#cadastro-menu a:hover {
+  text-decoration: underline;
+}
+
+#denuncia-menu a,
+#mapa-menu a,
+#destaque-menu a {
+  color: #00013e;
+}
+
+#denuncia-menu a:hover,
+#mapa-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Menu Mobile */
+
+#menuToggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  .cabecalho {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f8f7f4;
+  }
+
+  #login-menu img {
+    color: white;
+  }
+
+  #denuncia-menu a,
+  #mapa-menu a,
+  #destaque-menu a {
+    color: white;
+  }
+
+  .cabecalho nav {
+    display: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .menu {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+  }
+
+  .menu li {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .menu li a {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-icon {
+    width: 50px;
+    height: inherit;
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    line-height: 60px;
+    color: #00013e;
+    z-index: 999;
+  }
+
+  #fechar-circulo {
+    color: white;
+  }
+
+  #menuToggle:checked ~ label i:nth-child(2) {
+    display: block;
+  }
+  #menuToggle:checked ~ label i:first-child {
+    display: none;
+  }
+  #menuToggle:not(:checked) ~ label i:first-child {
+    display: block;
+  }
+  #menuToggle:not(:checked) ~ label i:nth-child(2) {
+    display: none;
+  }
+
+  #menuToggle:checked ~ ul {
+    height: 100%;
+  }
+  .menu-icon i {
+    font-size: 1.7em;
+  }
+}
+
+/* CONTEUDO */
+
+#perfil-main {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: grid;
+  gap: 50px;
+}
+
+@media (max-width: 1150px) {
+  #perfil-main {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  #perfil-main {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  #perfil-main h1 {
+    font-size: 2rem;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  #perfil-main {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  #perfil-main h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #perfil-main {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  #perfil-main {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+#perfil-main h1 {
+  text-align: center;
+  font-family: "Lora", serif;
+  color: #00013e;
+  font-size: 3rem;
+}
+
+#relatos-perfil h2,
+#comentarios-perfil h2 {
+  font-family: "Lora", serif;
+  color: #023e8a;
+}
+
+#relatos-perfil,
+#comentarios-perfil {
+  display: grid;
+  gap: 15px;
+}
+
+#relatos-envio {
+  background-color: white;
+}
+
+#comentarios-envio {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.report-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.report-card h3 {
+  margin: 0;
+}
+.report-card p {
+  white-space: pre-line;
+}
+.report-card button {
+  margin-right: 5px;
+}
+
+#perfil-agradecimento {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+#perfil-agradecimento img {
+  max-height: 250px;
+}
+
+#agradecimento-texto {
+  display: grid;
+  align-content: center;
+  gap: 20px;
+}
+
+#agradecimento-texto h2,
+#agradecimento-texto h3 {
+  font-family: "Lora", serif;
+  color: #00013e;
+  text-align: right;
+}
+
+@media (max-width: 1300px) {
+  #perfil-agradecimento img {
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 950px) {
+  #agradecimento-texto h2 {
+    font-size: 1.5rem;
+  }
+  #agradecimento-texto h3 {
+    font-size: 1.2rem;
+  }
+  #perfil-agradecimento img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 730px) {
+  #agradecimento-texto h2 {
+    font-size: 1.4rem;
+  }
+  #agradecimento-texto h3 {
+    font-size: 1.1rem;
+  }
+  #perfil-agradecimento img {
+    max-height: 130px;
+  }
+  #perfil-agradecimento {
+    display: grid;
+    justify-items: center;
+  }
+  #agradecimento-texto h2,
+  #agradecimento-texto h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 580px) {
+  #agradecimento-texto h2 {
+    font-size: 1.3rem;
+  }
+  #agradecimento-texto h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 580px) {
+  #perfil-agradecimento img {
+    max-height: 110px;
+  }
+}
+
+/* Footer */
+
+#footer-sofia {
+  margin: 100px 120px 40px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-texto {
+  max-width: 500px;
+  font-weight: bolder;
+  color: #01012f;
+  font-family: "Lora", serif;
+}
+
+#footer-info {
+  font-family: "Lora", serif;
+  color: dimgray;
+}
+
+@media (max-width: 1100px) {
+  #footer-texto {
+    display: none;
+  }
+  #footer-info {
+    text-align: center;
+  }
+  #footer-sofia {
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #footer-info {
+    font-size: 0.9rem;
+  }
+  #footer-sofia {
+    margin: 60px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #footer-info {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #footer-info {
+    font-size: 0.7rem;
+  }
+}

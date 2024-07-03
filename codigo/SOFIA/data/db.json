@@ -1,0 +1,404 @@
+{
+  "usuarios": [
+    {
+      "id": "b5d5",
+      "nome": "Lucas Nunes Leal Ledsham",
+      "login": "lucas123",
+      "email": "lucasledsham@hotmail.com",
+      "senha": "12345"
+    },
+    {
+      "id": "1d53",
+      "nome": "Administrador do Sistema",
+      "login": "admin",
+      "email": "admin@email.com",
+      "senha": "admin123"
+    }
+  ],
+  "informativos": [
+    {
+      "id": "1",
+      "titulo": "Desvio na contratação de crédito consignado",
+      "imagem": "../assets/img/golpe_consignado.png",
+      "conteudo": "O golpista liga para a vítima se passando por funcionário de um escritório ou empresa para oferecer um empréstimo consignado. Ele solicita que o servidor, pensionista ou empregado informe sua senha pessoal ou cadastre um e-mail junto ao Portal de Consignações, sugerindo que seja um e-mail da empresa ou de terceiros.\n\nCom esse e-mail, o golpista consegue criar uma senha no Portal, gerar um código único e, com os documentos da vítima, alterar dados e contratar empréstimos sem o consentimento dela.\n\nComo se proteger:\n\n- Não forneça a terceiros ou estranhos sua senha pessoal do Portal de Consignações e nem a senha do seu e-mail pessoal cadastrado no sistema.\n- Não permita que outros preencham cadastros em seu nome ou criem senhas.\n- Cuidado ao anotar e guardar seu login e senha, evitando senhas fáceis ou ligadas a dados pessoais.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-05-19"
+    },    
+    {
+      "id": "2",
+      "titulo": "Golpe na renegociação de crédito consignado",
+      "imagem": "../assets/img/golpe_compraFalsa.png",
+      "conteudo": "O golpista entra em contato como se fosse intermediador do banco e oferece a renovação ou portabilidade do empréstimo com redução da taxa de juros ou número de parcelas. Ele solicita que a vítima assine um contrato, mas sem preencher os dados ou com informações diferentes das combinadas. Com isso, o golpista consegue contratar um novo empréstimo em nome da vítima, sem que ela saiba. Assim, a vítima fica com dois descontos na sua folha de pagamento. Como se proteger Não assine documentos sem ler e entender todas cláusulas e condições do contrato, principalmente, quanto os valores das parcelas, taxas do Custo Efetivo Total (CET) praticados. Guarde ou salve todos os comprovantes e documentos relacionados ao empréstimo consignado, como propostas, contratos, extratos, recibos, etc. Eles podem ser úteis para comprovar a sua situação em caso de problemas.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-05-18"
+    },
+    {
+      "id": "3",
+      "titulo": "INSS alerta contra golpe da prova de vida",
+      "imagem": "../assets/img/inss_alerta.png",
+      "conteudo": "Instituto Nacional do Seguro Social (INSS) faz novo alerta sobre tentativa de golpe contra aposentados e pensionistas: pessoas mal-intencionadas estão se passando por servidores do instituto e visitam os beneficiários em casa para, supostamente, fazer a comprovação de vida. Eles costumam solicitar fotos, dados e documentos ao cidadão. O INSS não está fazendo esse tipo de ação. Caso receba uma visita desse tipo, não atenda aos falsários, nem forneça quaisquer informações ou documentos. Deve ainda denunciar pelo site https://gov.br/falabr ou pelo telefone 135. A polícia também pode ser acionada. O INSS também não está convocando os beneficiários para realizar procedimento de prova de vida ou de recadastramento. Essa informação falsa tem sido disseminada em sites e portais. Desde 2023, a realização da prova de vida é responsabilidade do próprio INSS. Além disso, os bloqueios de pagamento por falta de prova de vida estão suspensos até o final de 2024. Caso deseje, apesar de não ser mais obrigatória, a pessoa ainda pode realizar a comprovação de vida por conta própria. Há duas maneiras: pelo aplicativo Meu INSS ou no banco em que recebe os pagamentos – preferencialmente por biometria, em aplicativo ou caixa eletrônico, quando a opção estiver disponível.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-05-17"
+    },
+    {
+      "id": "4",
+      "titulo": "Golpe do Falso Suporte Técnico: Como Evitar Ser Vítima",
+      "imagem": "../assets/img/golpe_falso_suporte.png",
+      "conteudo": "A preocupação com a proteção do computador e dos dispositivos móveis em relação a ameaças de vírus e outros arquivos maliciosos é crescente. Em 2020, por exemplo, o Brasil entrou para a lista NSFocus entre os dez países que mais praticam cibercrimes no mundo. Já o relatório do FBI aponta que entre os três tipos de crimes mais praticados no último ano está a fraude do suporte técnico. Os criminosos estão espalhando na web a oferta de assistência técnica e download gratuito de antivírus para roubar dados e provocar prejuízos financeiros nas vítimas. Um levantamento do Laboratório de Ameaças da Avat revelou uma média de 168.304 ataques de falso suporte técnicos bloqueados por mês no Brasil entre junho de 2020 e maio de 2021. O golpe da falsa assistência técnica acontece quando uma pessoa se identifica como funcionário da equipe de suporte de grandes empresas de tecnologia. A abordagem é feita por telefone, e-mail não solicitado, banner de propaganda e pop-up em sites na internet com alertas do tipo “O seu computador foi infectado. Ligue urgente.”, “Alerta! Baixe este software antivírus”. O golpista explica por fala ou chat que identificou programas maliciosos na máquina das vítimas e oferece ajuda para limpeza. Segundo André Munhoz, gerente da Avast no Brasil, o esquema visa “ fazer com que os consumidores concedam à falsa equipe de suporte o acesso remoto ao computador”. Munhoz explica que os falsos atendentes vão se camuflar atrás da autoridade de marcas famosas como a Microsoft, Samsung e outras. Muitas vezes a argumentação envolve uma explicação enganosa de que a empresa precisa excluir as infecções para impedir que afetem outras máquinas dos clientes. O golpe do falso suporte técnico é perigoso porque uma vez que os criminosos conseguem o acesso remoto, passam a controlar a máquina da vítima. Como o objetivo é obter dinheiro e informações pessoais, a navegação remota permite acessar contas financeiras, registros de saúde e outros serviços essenciais. Como evitar o golpe do falso suporte técnico A forma de manter o seu computador protegido é ter um programa antivírus instalado e atualizado. O software deve ser adquirido em uma empresa reconhecida no mercado de tecnologia de comunicação e informação. Caso desconfie de infecção por vírus, rode o programa para navegar com segurança. Mesmo assim, muitas vezes o apelo do golpe pode parecer convincente, por isso fique atento para as dicas do especialista da Avast.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-01"
+    },
+    {
+      "id": "5",
+      "titulo": "Phishing: Aprenda a Reconhecer e Proteger Suas Informações",
+      "imagem": "../assets/img/golpe_phishing.png",
+      "conteudo": "O que é Phishing? Phishing é um ciberataque que persuade as pessoas a tomarem ações que dão a um golpista acesso ao seu dispositivo, contas ou informações pessoais. Os atacantes se passam por pessoas ou organizações confiáveis, infectando dispositivos com malware ou roubando informações de cartões de crédito. Esses ataques podem ocorrer por meio de e-mails, mensagens de texto, ligações telefônicas, entre outros métodos. Proteção Contra Phishing Dicas para Identificar E-mails de Phishing Anexos ou Links: Seja cauteloso com e-mails contendo anexos ou links inesperados. Erros de Ortografia e Gramática: E-mails fraudulentos frequentemente contêm erros. Imagens Pouco Profissionais: Imagens de baixa qualidade podem ser um sinal de alerta. Urgência Desnecessária: Pedidos urgentes para fornecer informações pessoais. Saudações Genéricas: Caro cliente em vez do seu nome.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-05"
+    },
+    {
+      "id": "6",
+      "titulo": "Fraudes em Compras Online: Dicas para Comprar com Segurança",
+      "imagem": "../assets/img/golpe_compras_online.png",
+      "conteudo": "Conheça os principais tipos de fraudes em compras online e aprenda a se proteger ao fazer suas compras na internet. Fuja de sites fakes: os golpistas muitas vezes criam sites falsos que imitam lojas legítimas. Para evitar cair nessa armadilha, prefira comprar de lojas online conhecidas ou pesquise a reputação de novas lojas. Certifique-se de que o site possui uma conexão segura.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-10"
+    },
+    {
+      "id": "7",
+      "titulo": "Roubo de Identidade: Como Proteger Seus Dados Pessoais",
+      "imagem": "../assets/img/golpe_roubo_identidade.png",
+      "conteudo": "O roubo de identidade pode causar sérios prejuízos. Descubra como proteger suas informações pessoais e evitar esse tipo de crime. Use serviços de proteção contra roubo de identidade: Considere subscrever serviços que monitorem sua identidade e alertem sobre atividades suspeitas. Tenha cuidado ao descartar documentos pessoais: Destrua documentos sensíveis antes de descartá-los, para evitar que caiam em mãos erradas",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-15"
+    },
+    {
+      "id": "8",
+      "titulo": "Golpes em Redes Sociais: Sinais de Alerta e Prevenção",
+      "imagem": "../assets/img/golpe_redes_sociais.png",
+      "conteudo": "As redes sociais são um terreno fértil para golpistas. Aprenda a identificar sinais de golpes e proteger sua privacidade online.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-20"
+    },
+    {
+      "id": "9",
+      "titulo": "Falsos Empréstimos Online: Como Identificar e Evitar",
+      "imagem": "../assets/img/golpe_falsos_emprestimos.png",
+      "conteudo": "Saiba como identificar ofertas de empréstimos fraudulentos e evitar cair em golpes que prometem dinheiro fácil.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-25"
+    },
+    {
+      "id": "10",
+      "titulo": "Criptomoedas e Golpes: Como Investir com Segurança",
+      "imagem": "../assets/img/golpe_criptomoedas.png",
+      "conteudo": "O mercado de criptomoedas atrai muitos investidores e golpistas. Veja como investir de forma segura e evitar fraudes.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-06-30"
+    },
+    {
+      "id": "11",
+      "titulo": "Golpes de Leilão Online: Evite Perder Seu Dinheiro",
+      "imagem": "../assets/img/golpe_leilao_online.png",
+      "conteudo": "Leilões online podem ser uma armadilha para consumidores desavisados. Aprenda a identificar golpes e participar de leilões com segurança.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-05"
+    },
+    {
+      "id": "12",
+      "titulo": "Aplicativos Falsos: Como Detectar e Evitar Downloads Perigosos",
+      "imagem": "../assets/img/golpe_aplicativos_falsos.png",
+      "conteudo": "Aplicativos falsos podem comprometer a segurança do seu dispositivo. Descubra como reconhecer e evitar baixar apps maliciosos.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-10"
+    },
+    {
+      "id": "13",
+      "titulo": "Golpe do Boleto Falso: Medidas de Segurança para Pagamentos",
+      "imagem": "../assets/img/golpe_boleto_falso.png",
+      "conteudo": "O golpe do boleto falso é uma prática comum que pode causar grandes prejuízos. Saiba como verificar a autenticidade dos boletos e pagar com segurança.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-15"
+    },
+    {
+      "id": "14",
+      "titulo": "E-mails Fraudulentos: Estratégias para Não Cair em Armadilhas",
+      "imagem": "../assets/img/golpe_emails_fraudulentos.png",
+      "conteudo": "E-mails fraudulentos são usados para enganar e roubar informações pessoais. Aprenda a identificar e-mails suspeitos e se proteger.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-20"
+    },
+    {
+      "id": "15",
+      "titulo": "Golpes de Caridade Falsas: Como Doar de Forma Segura",
+      "imagem": "../assets/img/golpe_caridade_falsa.png",
+      "conteudo": "Golpistas se aproveitam da generosidade das pessoas para criar falsas campanhas de caridade. Descubra como verificar a autenticidade das organizações e doar de forma segura.",
+      "categoriaId": 1,
+      "dataDePublicacao": "2024-07-25"
+    },
+    {
+      "id": "16",
+      "titulo": "Cuidados com a alimentação na terceira idade",
+      "imagem": "../assets/img/cuidados_alimentacao.png",
+      "conteudo": "Uma alimentação saudável é essencial para manter a saúde na terceira idade. Conheça os principais cuidados e dicas para uma dieta equilibrada.",
+      "categoriaId": 2,
+      "dataDePublicacao": "2024-07-30"
+    },
+    {
+      "id": "17",
+      "titulo": "Exercícios físicos para idosos: benefícios e recomendações",
+      "imagem": "../assets/img/exercicios_idosos.png",
+      "conteudo": "A prática regular de exercícios físicos traz inúmeros benefícios para os idosos. Saiba quais são os melhores exercícios e as recomendações para uma rotina saudável.",
+      "categoriaId": 2,
+      "dataDePublicacao": "2024-08-05"
+    },
+    {
+      "id": "18",
+      "titulo": "Prevenção de quedas em idosos: dicas e cuidados",
+      "imagem": "../assets/img/prevencao_quedas.png",
+      "conteudo": "As quedas são um problema comum em idosos e podem causar lesões graves. Conheça dicas e cuidados para prevenir quedas e garantir a segurança dos idosos.",
+      "categoriaId": 2,
+      "dataDePublicacao": "2024-08-10"
+    },
+    {
+        "id": "19",
+        "titulo": "Saúde mental na terceira idade: importância e cuidados",
+        "imagem": "../assets/img/saude_mental.png",
+        "conteudo": "A saúde mental é fundamental para o bem-estar dos idosos. Saiba como cuidar da saúde mental na terceira idade e prevenir problemas como a depressão e a ansiedade.",
+        "categoriaId": 2,
+        "dataDePublicacao": "2024-08-15"
+      },
+      {
+        "id": "20",
+        "titulo": "Dicas de lazer e entretenimento para idosos",
+        "imagem": "../assets/img/lazer_idosos.png",
+        "conteudo": "O lazer e o entretenimento são importantes para a qualidade de vida dos idosos. Descubra dicas de atividades e programas de lazer adequados para a terceira idade.",
+        "categoriaId": 2,
+        "dataDePublicacao": "2024-08-20"
+      },
+      {
+        "id": "21",
+        "titulo": "A Importância da Educação Financeira",
+        "imagem": "../assets/img/educacao_financeira.png",
+        "conteudo": "A educação financeira é fundamental para uma vida financeira saudável. Saiba como gerenciar seu dinheiro, fazer investimentos e evitar dívidas.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-08-25"
+      },
+      {
+        "id": "22",
+        "titulo": "A Importância da Educação Ambiental",
+        "imagem": "../assets/img/educacao_ambiental.png",
+        "conteudo": "A educação ambiental é essencial para a preservação do meio ambiente. Conheça a importância de práticas sustentáveis e como cuidar do planeta.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-08-30"
+      },
+      {
+        "id": "23",
+        "titulo": "A Importância da Educação Digital",
+        "imagem": "../assets/img/educacao_digital.png",
+        "conteudo": "A educação digital é fundamental na era da tecnologia. Saiba como utilizar a internet de forma segura, identificar fake news e aproveitar os recursos digitais.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-09-05"
+      },
+      {
+        "id": "24",
+        "titulo": "A Importância da Educação de idosos",
+        "imagem": "../assets/img/educacao_idosos.png",
+        "conteudo": "A educação sexual é fundamental para uma vida saudável e segura. Conheça os aspectos da sexualidade, métodos contraceptivos e prevenção de doenças.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-09-10"
+      },
+      {
+        "id": "25",
+        "titulo": "A Importância da Educação Inclusiva",
+        "imagem": "../assets/img/educacao_inclusiva.png",
+        "conteudo": "A educação inclusiva é fundamental para garantir igualdade de oportunidades. Saiba como promover a inclusão de pessoas com deficiência na educação.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-09-15"
+      },
+      {
+        "id": "26",
+        "titulo": "Investimentos em Ações: Como Começar",
+        "imagem": "../assets/img/investimentos_acoes.png",
+        "conteudo": "Os investimentos em ações podem ser uma forma lucrativa de fazer seu dinheiro render. Saiba como começar a investir na bolsa de valores e obter bons resultados.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-09-20"
+      },
+      {
+        "id": "27",
+        "titulo": "Planejamento Financeiro para Empreendedores",
+        "imagem": "../assets/img/planejamento_financeiro.png",
+        "conteudo": "O planejamento financeiro é essencial para o sucesso de um empreendimento. Descubra como organizar as finanças do seu negócio e tomar decisões financeiras estratégicas.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-09-25"
+      },
+      {
+        "id": "28",
+        "titulo": "Economia Circular: Conceito e Aplicações",
+        "imagem": "../assets/img/economia_circular.png",
+        "conteudo": "A economia circular é um modelo econômico sustentável que busca reduzir o desperdício e promover a reutilização de recursos. Conheça os princípios e aplicações desse conceito.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-09-30"
+      },
+      {
+        "id": "29",
+        "titulo": "Finanças Pessoais: Dicas para Economizar",
+        "imagem": "../assets/img/financas_pessoais.png",
+        "conteudo": "As finanças pessoais são fundamentais para uma vida financeira saudável. Saiba como economizar dinheiro, controlar gastos e alcançar seus objetivos financeiros.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-10-05"
+      },
+      {
+        "id": "30",
+        "titulo": "Crédito Consciente: Como Utilizar de Forma Responsável",
+        "imagem": "../assets/img/credito_consciente.png",
+        "conteudo": "O crédito pode ser uma ferramenta útil, mas é importante utilizá-lo de forma responsável. Aprenda a tomar decisões conscientes ao utilizar o crédito e evitar dívidas desnecessárias.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-10-10"
+      }
+   ],
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Segurança"
+    },
+    {
+      "id": "2",
+      "nome": "Saúde"
+    },
+    {
+      "id": "3",
+      "nome": "Educação"
+    },
+    {
+      "id": "4",
+      "nome": "Economia"
+    }
+  ],
+  "incidentes": [
+    {
+      "id": "1",
+      "data": "10-01-2024",
+      "depoimento": "História do golpe sofrido aqui.",
+      "usuarioId": 1,
+      "regiaoId": 1
+    }
+  ],
+  "regioes": [
+    {
+      "id": "1",
+      "regiaoId": 1,
+      "nome": "Regional Norte",
+      "coords": [
+        -19.8704,
+        -43.9346
+      ],
+      "risco": 30
+    },
+    {
+      "id": "1",
+      "regiaoId": 2,
+      "nome": "Regional Venda Nova",
+      "coords": [
+        -19.817,
+        -43.9476
+      ],
+      "risco": 50
+    },
+    {
+      "id": "1",
+      "regiaoId": 3,
+      "nome": "Regional Pampulha",
+      "coords": [
+        -19.8551,
+        -43.9623
+      ],
+      "risco": 40
+    },
+    {
+      "id": "1",
+      "regiaoId": 4,
+      "nome": "Regional Noroeste",
+      "coords": [
+        -19.9061,
+        -43.9779
+      ],
+      "risco": 60
+    },
+    {
+      "id": "1",
+      "regiaoId": 5,
+      "nome": "Regional Centro-Sul",
+      "coords": [
+        -19.9359,
+        -43.9376
+      ],
+      "risco": 90
+    },
+    {
+      "id": "1",
+      "regiaoId": 6,
+      "nome": "Regional Oeste",
+      "coords": [
+        -19.9459,
+        -43.9659
+      ],
+      "risco": 80
+    },
+    {
+      "id": "1",
+      "regiaoId": 7,
+      "nome": "Regional Barreiro",
+      "coords": [
+        -19.9766,
+        -44.0154
+      ],
+      "risco": 70
+    },
+    {
+      "id": "1",
+      "regiaoId": 8,
+      "nome": "Regional Leste",
+      "coords": [
+        -19.9166,
+        -43.9264
+      ],
+      "risco": 20
+    },
+    {
+      "id": "1",
+      "regiaoId": 9,
+      "nome": "Regional Nordeste",
+      "coords": [
+        -19.8956,
+        -43.9054
+      ],
+      "risco": 10
+    },
+    {
+      "id": "1",
+      "regiaoId": 10,
+      "nome": "Regional Oeste",
+      "coords": [
+        -19.9559,
+        -43.9859
+      ],
+      "risco": 15
+    }
+  ],
+  "reports": [
+    {
+      "id": "7684",
+      "name": "Lucas",
+      "email": "lucas@email.com",
+      "city": "Belo Horizonte",
+      "report": "Relato exemplo!\nEste é um exemplo de relato para demonstrar a funcionalidade do CRUD usando o JSON-Server. Além disso, serve para mostrar a funcionalidade do Perfil, que busca o relato diretamente do JSON-Server."
+    }
+  ],
+  "comentarios": [
+    {
+      "id": "d502",
+      "texto": "Estou adorando os conteúdos da página. Continuem com o bom trabalho. PARABÉNS!!!"
+    }
+  ]
+}

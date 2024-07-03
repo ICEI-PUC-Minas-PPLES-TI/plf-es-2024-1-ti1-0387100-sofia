@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f7f4;
+}
+
+img {
+  display: center;
+  max-width: 500px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+/* HEADER */
+
+header {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+header a img {
+  height: 50px;
+}
+
+/* TEXTO */
+#principal {
+  margin-top: 55px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+#principal h1 {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  max-width: 1200px;
+  color: #00202e;
+}
+
+#principal h2 {
+  font-family: "PT Serif", serif;
+  max-width: 1200px;
+  font-size: 20px;
+  opacity: 0.75;
+}
+
+#foto {
+  width: 1200px;
+  height: 400px;
+}
+
+#texto {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+
+#texto p {
+  font-family: "PT Serif", serif;
+  max-width: 1200px;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+#tema,
+#autor {
+  color: #023e8a;
+}
+
+/* COMENTARIO */
+
+#comentarios-texto {
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#secao-comentarios {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#formulario-comentario {
+  margin-bottom: 20px;
+}
+
+#entrada-comentario {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#lista-comentarios {
+  margin-top: 20px;
+}
+
+.comentario {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.botoes-comentario {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botoes-comentario button {
+  margin-left: 10px;
+}
+
+/* Footer */
+
+#footer-sofia {
+  margin: 100px 120px 40px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-texto {
+  max-width: 500px;
+  font-weight: bolder;
+  color: #01012f;
+  font-family: "Lora", serif;
+}
+
+#footer-info {
+  font-family: "Lora", serif;
+  color: dimgray;
+}

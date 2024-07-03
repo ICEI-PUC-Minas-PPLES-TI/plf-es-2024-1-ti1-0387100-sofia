@@ -1,0 +1,445 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f8f7f4;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+/* Cabecalho */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  /* margin-left: 80px; */
+  /* margin-right: 80px; */
+  padding-top: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  /* padding-bottom: 20px; */
+}
+
+.logo-header img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.menu li {
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+#cadastro-menu a {
+  color: #00013e;
+}
+
+#login-menu a {
+  display: grid;
+  justify-content: center;
+}
+
+#login-menu a img {
+  height: 40px;
+}
+
+#cadastro-menu a:hover {
+  text-decoration: underline;
+}
+
+#denuncia-menu a {
+  text-decoration: underline;
+  color: #00013e;
+}
+
+#denuncia-menu a,
+#mapa-menu a,
+#destaque-menu a {
+  color: #00013e;
+}
+
+#destaque-menu a:hover,
+#mapa-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Menu Mobile */
+
+#menuToggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  .cabecalho {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f8f7f4;
+  }
+
+  #login-menu img {
+    color: white;
+  }
+
+  #denuncia-menu a,
+  #mapa-menu a,
+  #destaque-menu a {
+    color: white;
+  }
+
+  .cabecalho nav {
+    display: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .menu {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+  }
+
+  .menu li {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .menu li a {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-icon {
+    width: 50px;
+    height: inherit;
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    line-height: 60px;
+    color: #00013e;
+    z-index: 999;
+  }
+
+  #fechar-circulo {
+    color: white;
+  }
+
+  #menuToggle:checked ~ label i:nth-child(2) {
+    display: block;
+  }
+  #menuToggle:checked ~ label i:first-child {
+    display: none;
+  }
+  #menuToggle:not(:checked) ~ label i:first-child {
+    display: block;
+  }
+  #menuToggle:not(:checked) ~ label i:nth-child(2) {
+    display: none;
+  }
+
+  #menuToggle:checked ~ ul {
+    height: 100%;
+  }
+  .menu-icon i {
+    font-size: 1.7em;
+  }
+}
+
+/* CONTEUDO */
+
+.container-denuncia {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.texto-denuncia {
+  text-align: center;
+}
+
+.texto-denuncia h1 {
+  font-size: 1.8rem;
+  font-family: "Lora", serif;
+  color: #01012f;
+}
+
+.texto-denuncia p {
+  font-size: 1.1rem;
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00013e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(0, 1, 61, 0.8);
+}
+
+#report {
+  height: 150px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  position: relative;
+}
+
+.card button {
+  position: absolute;
+  top: 0px;
+  right: 40px;
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.card button:hover {
+  background-color: #c82333;
+}
+
+.card .edit {
+  background-color: #007bff;
+  right: auto;
+  left: 480px;
+  top: 0px;
+}
+
+.card .view {
+  right: auto;
+}
+
+.card .edit:hover {
+  background-color: #0069d9;
+}
+
+.card .view {
+  background-color: #ffc107;
+  left: 545px;
+}
+
+.card .view:hover {
+  background-color: #e0a800;
+}
+
+#texto-seus-relatos {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .container-denuncia {
+    padding: 15px;
+    margin-top: 100px;
+  }
+
+  .texto-denuncia h1 {
+    font-size: 1.5rem;
+  }
+
+  .texto-denuncia p {
+    font-size: 1rem;
+  }
+
+  input,
+  textarea {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 8px;
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card button {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
+  .card .edit {
+    left: auto;
+    top: 40px;
+    right: 100px;
+  }
+
+  .card .view {
+    left: auto;
+    right: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .texto-denuncia h1 {
+    font-size: 1.2rem;
+  }
+
+  .texto-denuncia p {
+    font-size: 0.9rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 6px;
+    font-size: 0.9rem;
+  }
+
+  .card {
+    padding: 8px;
+  }
+
+  .card button {
+    padding: 4px;
+    font-size: 0.8rem;
+  }
+
+  .card .edit {
+    left: auto;
+    top: 40px;
+    right: 50px;
+  }
+
+}
+
+/* Footer */
+
+#footer-sofia {
+  margin: 100px 120px 40px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-texto {
+  max-width: 500px;
+  font-weight: bolder;
+  color: #01012f;
+  font-family: "Lora", serif;
+}
+
+#footer-info {
+  font-family: "Lora", serif;
+  color: dimgray;
+}
+
+@media (max-width: 1100px) {
+  #footer-texto {
+    display: none;
+  }
+  #footer-info {
+    text-align: center;
+  }
+  #footer-sofia {
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #footer-info {
+    font-size: 0.9rem;
+  }
+  #footer-sofia {
+    margin: 60px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #footer-info {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #footer-info {
+    font-size: 0.7rem;
+  }
+}
