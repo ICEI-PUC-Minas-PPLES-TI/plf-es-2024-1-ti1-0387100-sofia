@@ -57,30 +57,4 @@ fetch("http://localhost:3000/informativos")
     gerarFeed();
   })
   .catch((error) => console.error(error));
-/* 
-  function carregarCategorias() {
-    fetch("http://localhost:3000/categorias") // Caminho para o arquivo JSON
-            .then(response => response.json())
-            .then(data => {
-                // Referência à lista de categorias no HTML
-                const listaCategorias = document.getElementById("categoria-lista");
-     
-                // Limpa qualquer conteúdo existente na lista
-                listaCategorias.innerHTML = "";
-                
-                // Adiciona cada categoria como um item da lista
-                data.categorias.forEach((categoria) => {
-                    const li = document.createElement("li");
-                    li.className = "categoria-opcao";
-                    li.textContent = categoria.nome; // Obtém a propriedade "nome" do objeto "categoria"
-                    listaCategorias.appendChild(li);
-                });
-            })
-            .catch(error => {
-                console.error("Erro ao carregar categorias:", error);
-            });
-    }
-     
-    // Chama a função para carregar as categorias ao carregar a página
-    window.onload = carregarCategorias;
- */
+ 

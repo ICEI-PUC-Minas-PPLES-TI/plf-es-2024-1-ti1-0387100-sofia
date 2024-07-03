@@ -135,8 +135,128 @@
       "conteudo": "Golpistas se aproveitam da generosidade das pessoas para criar falsas campanhas de caridade. Descubra como verificar a autenticidade das organizações e doar de forma segura.",
       "categoriaId": 1,
       "dataDePublicacao": "2024-07-25"
-    }
-  ],
+    },
+    {
+      "id": "16",
+      "titulo": "Cuidados com a alimentação na terceira idade",
+      "imagem": "../assets/img/cuidados_alimentacao.png",
+      "conteudo": "Uma alimentação saudável é essencial para manter a saúde na terceira idade. Conheça os principais cuidados e dicas para uma dieta equilibrada.",
+      "categoriaId": 2,
+      "dataDePublicacao": "2024-07-30"
+    },
+    {
+      "id": "17",
+      "titulo": "Exercícios físicos para idosos: benefícios e recomendações",
+      "imagem": "../assets/img/exercicios_idosos.png",
+      "conteudo": "A prática regular de exercícios físicos traz inúmeros benefícios para os idosos. Saiba quais são os melhores exercícios e as recomendações para uma rotina saudável.",
+      "categoriaId": 2,
+      "dataDePublicacao": "2024-08-05"
+    },
+    {
+      "id": "18",
+      "titulo": "Prevenção de quedas em idosos: dicas e cuidados",
+      "imagem": "../assets/img/prevencao_quedas.png",
+      "conteudo": "As quedas são um problema comum em idosos e podem causar lesões graves. Conheça dicas e cuidados para prevenir quedas e garantir a segurança dos idosos.",
+      "categoriaId": 2,
+      "dataDePublicacao": "2024-08-10"
+    },
+    {
+        "id": "19",
+        "titulo": "Saúde mental na terceira idade: importância e cuidados",
+        "imagem": "../assets/img/saude_mental.png",
+        "conteudo": "A saúde mental é fundamental para o bem-estar dos idosos. Saiba como cuidar da saúde mental na terceira idade e prevenir problemas como a depressão e a ansiedade.",
+        "categoriaId": 2,
+        "dataDePublicacao": "2024-08-15"
+      },
+      {
+        "id": "20",
+        "titulo": "Dicas de lazer e entretenimento para idosos",
+        "imagem": "../assets/img/lazer_idosos.png",
+        "conteudo": "O lazer e o entretenimento são importantes para a qualidade de vida dos idosos. Descubra dicas de atividades e programas de lazer adequados para a terceira idade.",
+        "categoriaId": 2,
+        "dataDePublicacao": "2024-08-20"
+      },
+      {
+        "id": "21",
+        "titulo": "A Importância da Educação Financeira",
+        "imagem": "../assets/img/educacao_financeira.png",
+        "conteudo": "A educação financeira é fundamental para uma vida financeira saudável. Saiba como gerenciar seu dinheiro, fazer investimentos e evitar dívidas.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-08-25"
+      },
+      {
+        "id": "22",
+        "titulo": "A Importância da Educação Ambiental",
+        "imagem": "../assets/img/educacao_ambiental.png",
+        "conteudo": "A educação ambiental é essencial para a preservação do meio ambiente. Conheça a importância de práticas sustentáveis e como cuidar do planeta.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-08-30"
+      },
+      {
+        "id": "23",
+        "titulo": "A Importância da Educação Digital",
+        "imagem": "../assets/img/educacao_digital.png",
+        "conteudo": "A educação digital é fundamental na era da tecnologia. Saiba como utilizar a internet de forma segura, identificar fake news e aproveitar os recursos digitais.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-09-05"
+      },
+      {
+        "id": "24",
+        "titulo": "A Importância da Educação Sexual",
+        "imagem": "../assets/img/educacao_sexual.png",
+        "conteudo": "A educação sexual é fundamental para uma vida saudável e segura. Conheça os aspectos da sexualidade, métodos contraceptivos e prevenção de doenças.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-09-10"
+      },
+      {
+        "id": "25",
+        "titulo": "A Importância da Educação Inclusiva",
+        "imagem": "../assets/img/educacao_inclusiva.png",
+        "conteudo": "A educação inclusiva é fundamental para garantir igualdade de oportunidades. Saiba como promover a inclusão de pessoas com deficiência na educação.",
+        "categoriaId": 3,
+        "dataDePublicacao": "2024-09-15"
+      },
+      {
+        "id": "26",
+        "titulo": "Investimentos em Ações: Como Começar",
+        "imagem": "../assets/img/investimentos_acoes.png",
+        "conteudo": "Os investimentos em ações podem ser uma forma lucrativa de fazer seu dinheiro render. Saiba como começar a investir na bolsa de valores e obter bons resultados.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-09-20"
+      },
+      {
+        "id": "27",
+        "titulo": "Planejamento Financeiro para Empreendedores",
+        "imagem": "../assets/img/planejamento_financeiro.png",
+        "conteudo": "O planejamento financeiro é essencial para o sucesso de um empreendimento. Descubra como organizar as finanças do seu negócio e tomar decisões financeiras estratégicas.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-09-25"
+      },
+      {
+        "id": "28",
+        "titulo": "Economia Circular: Conceito e Aplicações",
+        "imagem": "../assets/img/economia_circular.png",
+        "conteudo": "A economia circular é um modelo econômico sustentável que busca reduzir o desperdício e promover a reutilização de recursos. Conheça os princípios e aplicações desse conceito.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-09-30"
+      },
+      {
+        "id": "29",
+        "titulo": "Finanças Pessoais: Dicas para Economizar",
+        "imagem": "../assets/img/financas_pessoais.png",
+        "conteudo": "As finanças pessoais são fundamentais para uma vida financeira saudável. Saiba como economizar dinheiro, controlar gastos e alcançar seus objetivos financeiros.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-10-05"
+      },
+      {
+        "id": "30",
+        "titulo": "Crédito Consciente: Como Utilizar de Forma Responsável",
+        "imagem": "../assets/img/credito_consciente.png",
+        "conteudo": "O crédito pode ser uma ferramenta útil, mas é importante utilizá-lo de forma responsável. Aprenda a tomar decisões conscientes ao utilizar o crédito e evitar dívidas desnecessárias.",
+        "categoriaId": 4,
+        "dataDePublicacao": "2024-10-10"
+      }
+   ],
   "categorias": [
     {
       "id": "1",
