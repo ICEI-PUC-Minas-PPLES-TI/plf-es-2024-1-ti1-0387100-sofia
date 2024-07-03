@@ -18,17 +18,17 @@
   "informativos": [
     {
       "id": "1",
-      "titulo": "Golpe do Empréstimo Consignado: se proteja",
-      "imagem": "../assets//img/golpe_consignado.png",
-      "conteudo": "O Crédito consignado tem servido como isca para criminosos atraírem funcionários públicos, aposentados e pensionistas do INSS. Saiba como identificar esse tipo de golpe e se proteger das ameaças.",
+      "titulo": "Desvio na contratação de crédito consignado",
+      "imagem": "../assets/img/golpe_consignado.png",
+      "conteudo": "O golpista liga para a vítima se passando por funcionário de um escritório ou empresa para oferecer um empréstimo consignado. Ele solicita que o servidor, pensionista ou empregado informe sua senha pessoal ou cadastre um e-mail junto ao Portal de Consignações, sugerindo que seja um e-mail da empresa ou de terceiros.\n\nCom esse e-mail, o golpista consegue criar uma senha no Portal, gerar um código único e, com os documentos da vítima, alterar dados e contratar empréstimos sem o consentimento dela.\n\nComo se proteger:\n\n- Não forneça a terceiros ou estranhos sua senha pessoal do Portal de Consignações e nem a senha do seu e-mail pessoal cadastrado no sistema.\n- Não permita que outros preencham cadastros em seu nome ou criem senhas.\n- Cuidado ao anotar e guardar seu login e senha, evitando senhas fáceis ou ligadas a dados pessoais.",
       "categoriaId": 1,
       "dataDePublicacao": "2024-05-19"
-    },
+    },    
     {
       "id": "2",
-      "titulo": "Golpe da compra falsa no cartão de crédito",
+      "titulo": "Golpe na renegociação de crédito consignado",
       "imagem": "../assets/img/golpe_compraFalsa.png",
-      "conteudo": "Você sabe o que fazer em caso de golpe ou fraude no cartão de crédito? Veja como se proteger. A instituição financeira tem o dever de resguardar seu cliente desse tipo de fraude, e caso ocorra ela deverá tomar as devidas providências.",
+      "conteudo": "O golpista entra em contato como se fosse intermediador do banco e oferece a renovação ou portabilidade do empréstimo com redução da taxa de juros ou número de parcelas. Ele solicita que a vítima assine um contrato, mas sem preencher os dados ou com informações diferentes das combinadas. Com isso, o golpista consegue contratar um novo empréstimo em nome da vítima, sem que ela saiba. Assim, a vítima fica com dois descontos na sua folha de pagamento. Como se proteger Não assine documentos sem ler e entender todas cláusulas e condições do contrato, principalmente, quanto os valores das parcelas, taxas do Custo Efetivo Total (CET) praticados. Guarde ou salve todos os comprovantes e documentos relacionados ao empréstimo consignado, como propostas, contratos, extratos, recibos, etc. Eles podem ser úteis para comprovar a sua situação em caso de problemas.",
       "categoriaId": 1,
       "dataDePublicacao": "2024-05-18"
     },
@@ -36,7 +36,7 @@
       "id": "3",
       "titulo": "INSS alerta contra golpe da prova de vida",
       "imagem": "../assets/img/inss_alerta.png",
-      "conteudo": "Instituto Nacional do Seguro Social (INSS) faz novo alerta sobre tentativa de golpe contra aposentados e pensionistas: pessoas mal-intencionadas estão se passando por servidores do instituto e visitam os beneficiários em casa para, supostamente, fazer a comprovação de vida. Eles costumam solicitar fotos, dados e documentos ao cidadão.",
+      "conteudo": "Instituto Nacional do Seguro Social (INSS) faz novo alerta sobre tentativa de golpe contra aposentados e pensionistas: pessoas mal-intencionadas estão se passando por servidores do instituto e visitam os beneficiários em casa para, supostamente, fazer a comprovação de vida. Eles costumam solicitar fotos, dados e documentos ao cidadão. O INSS não está fazendo esse tipo de ação. Caso receba uma visita desse tipo, não atenda aos falsários, nem forneça quaisquer informações ou documentos. Deve ainda denunciar pelo site https://gov.br/falabr ou pelo telefone 135. A polícia também pode ser acionada. O INSS também não está convocando os beneficiários para realizar procedimento de prova de vida ou de recadastramento. Essa informação falsa tem sido disseminada em sites e portais. Desde 2023, a realização da prova de vida é responsabilidade do próprio INSS. Além disso, os bloqueios de pagamento por falta de prova de vida estão suspensos até o final de 2024. Caso deseje, apesar de não ser mais obrigatória, a pessoa ainda pode realizar a comprovação de vida por conta própria. Há duas maneiras: pelo aplicativo Meu INSS ou no banco em que recebe os pagamentos – preferencialmente por biometria, em aplicativo ou caixa eletrônico, quando a opção estiver disponível.",
       "categoriaId": 1,
       "dataDePublicacao": "2024-05-17"
     },
@@ -44,7 +44,7 @@
       "id": "4",
       "titulo": "Golpe do Falso Suporte Técnico: Como Evitar Ser Vítima",
       "imagem": "../assets/img/golpe_falso_suporte.png",
-      "conteudo": "Os golpistas se passam por técnicos de suporte de grandes empresas e solicitam acesso remoto ao seu computador. Saiba como reconhecer esses golpes e proteger seu dispositivo.",
+      "conteudo": "A preocupação com a proteção do computador e dos dispositivos móveis em relação a ameaças de vírus e outros arquivos maliciosos é crescente. Em 2020, por exemplo, o Brasil entrou para a lista NSFocus entre os dez países que mais praticam cibercrimes no mundo. Já o relatório do FBI aponta que entre os três tipos de crimes mais praticados no último ano está a fraude do suporte técnico. Os criminosos estão espalhando na web a oferta de assistência técnica e download gratuito de antivírus para roubar dados e provocar prejuízos financeiros nas vítimas. Um levantamento do Laboratório de Ameaças da Avat revelou uma média de 168.304 ataques de falso suporte técnicos bloqueados por mês no Brasil entre junho de 2020 e maio de 2021. O golpe da falsa assistência técnica acontece quando uma pessoa se identifica como funcionário da equipe de suporte de grandes empresas de tecnologia. A abordagem é feita por telefone, e-mail não solicitado, banner de propaganda e pop-up em sites na internet com alertas do tipo “O seu computador foi infectado. Ligue urgente.”, “Alerta! Baixe este software antivírus”. O golpista explica por fala ou chat que identificou programas maliciosos na máquina das vítimas e oferece ajuda para limpeza. Segundo André Munhoz, gerente da Avast no Brasil, o esquema visa “ fazer com que os consumidores concedam à falsa equipe de suporte o acesso remoto ao computador”. Munhoz explica que os falsos atendentes vão se camuflar atrás da autoridade de marcas famosas como a Microsoft, Samsung e outras. Muitas vezes a argumentação envolve uma explicação enganosa de que a empresa precisa excluir as infecções para impedir que afetem outras máquinas dos clientes. O golpe do falso suporte técnico é perigoso porque uma vez que os criminosos conseguem o acesso remoto, passam a controlar a máquina da vítima. Como o objetivo é obter dinheiro e informações pessoais, a navegação remota permite acessar contas financeiras, registros de saúde e outros serviços essenciais. Como evitar o golpe do falso suporte técnico A forma de manter o seu computador protegido é ter um programa antivírus instalado e atualizado. O software deve ser adquirido em uma empresa reconhecida no mercado de tecnologia de comunicação e informação. Caso desconfie de infecção por vírus, rode o programa para navegar com segurança. Mesmo assim, muitas vezes o apelo do golpe pode parecer convincente, por isso fique atento para as dicas do especialista da Avast.",
       "categoriaId": 1,
       "dataDePublicacao": "2024-06-01"
     },
@@ -52,7 +52,7 @@
       "id": "5",
       "titulo": "Phishing: Aprenda a Reconhecer e Proteger Suas Informações",
       "imagem": "../assets/img/golpe_phishing.png",
-      "conteudo": "Phishing é uma técnica usada para roubar informações pessoais e financeiras. Veja como identificar e evitar cair nessa armadilha.",
+      "conteudo": "O que é Phishing? Phishing é um ciberataque que persuade as pessoas a tomarem ações que dão a um golpista acesso ao seu dispositivo, contas ou informações pessoais. Os atacantes se passam por pessoas ou organizações confiáveis, infectando dispositivos com malware ou roubando informações de cartões de crédito. Esses ataques podem ocorrer por meio de e-mails, mensagens de texto, ligações telefônicas, entre outros métodos. Proteção Contra Phishing Dicas para Identificar E-mails de Phishing Anexos ou Links: Seja cauteloso com e-mails contendo anexos ou links inesperados. Erros de Ortografia e Gramática: E-mails fraudulentos frequentemente contêm erros. Imagens Pouco Profissionais: Imagens de baixa qualidade podem ser um sinal de alerta. Urgência Desnecessária: Pedidos urgentes para fornecer informações pessoais. Saudações Genéricas: Caro cliente em vez do seu nome.",
       "categoriaId": 1,
       "dataDePublicacao": "2024-06-05"
     },
@@ -60,7 +60,7 @@
       "id": "6",
       "titulo": "Fraudes em Compras Online: Dicas para Comprar com Segurança",
       "imagem": "../assets/img/golpe_compras_online.png",
-      "conteudo": "Conheça os principais tipos de fraudes em compras online e aprenda a se proteger ao fazer suas compras na internet.",
+      "conteudo": "Conheça os principais tipos de fraudes em compras online e aprenda a se proteger ao fazer suas compras na internet. Fuja de sites fakes: os golpistas muitas vezes criam sites falsos que imitam lojas legítimas. Para evitar cair nessa armadilha, prefira comprar de lojas online conhecidas ou pesquise a reputação de novas lojas. Certifique-se de que o site possui uma conexão segura.",
       "categoriaId": 1,
       "dataDePublicacao": "2024-06-10"
     },
@@ -68,7 +68,7 @@
       "id": "7",
       "titulo": "Roubo de Identidade: Como Proteger Seus Dados Pessoais",
       "imagem": "../assets/img/golpe_roubo_identidade.png",
-      "conteudo": "O roubo de identidade pode causar sérios prejuízos. Descubra como proteger suas informações pessoais e evitar esse tipo de crime.",
+      "conteudo": "O roubo de identidade pode causar sérios prejuízos. Descubra como proteger suas informações pessoais e evitar esse tipo de crime. Use serviços de proteção contra roubo de identidade: Considere subscrever serviços que monitorem sua identidade e alertem sobre atividades suspeitas. Tenha cuidado ao descartar documentos pessoais: Destrua documentos sensíveis antes de descartá-los, para evitar que caiam em mãos erradas",
       "categoriaId": 1,
       "dataDePublicacao": "2024-06-15"
     },
