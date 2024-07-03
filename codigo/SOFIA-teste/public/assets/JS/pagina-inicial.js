@@ -84,3 +84,6 @@ fetch("http://localhost:3000/informativos")
     // Chama a função para carregar as categorias ao carregar a página
     window.onload = carregarCategorias;
  */
+
+    
+    
