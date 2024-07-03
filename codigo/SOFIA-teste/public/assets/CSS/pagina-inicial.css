@@ -353,6 +353,11 @@ main {
   padding: 10px;
 }
 
+#categorias-opcoes{
+  display: grid;
+ gap: 10px;
+}
+
 .item {
   background-color: white;
   border-radius: 25px;
