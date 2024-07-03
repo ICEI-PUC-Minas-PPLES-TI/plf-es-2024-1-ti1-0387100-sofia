@@ -317,37 +317,37 @@
                     </tr>
                     <tr>
                       <th scope="row">RF-002</th>
-                      <td>Permitir que o usuário compartilhe o texto no WhatsApp, Facebook e Instagram.</td>
+                      <td>Gerar artigos a partir do JSON Server.</td>
                       <td>ALTA</td>
                     </tr>
                     <tr>
                       <th scope="row">RF-003</th>
-                      <td>Permitir que o usuário se cadastre no site.</td>
-                      <td>MÉDIA</td>
+                      <td>Permitir que o usuário filtre os artigos por categoria.</td>
+                      <td>ALTA</td>
                     </tr>
                     <tr>
                       <th scope="row">RF-004</th>
-                      <td>Permitir que os administradores criem e gerenciem categorias.</td>
+                      <td>Permitir que os usuários enviem denúncias de golpes digitais sofridos.</td>
                       <td>MÉDIA</td>
                     </tr>
                     <tr>
                       <th scope="row">RF-005</th>
-                      <td>Permitir o usuário se inscreva em boletins informativos através do e-mail.</td>
+                      <td>Permitir que o usuário visualize um mapa das regiões com mais incidência de golpes.</td>
                       <td>MÉDIA</td>
                     </tr>
                     <tr>
                       <th scope="row">RF-006</th>
-                      <td>Permitir que o usuário crie uma lista de notícias favoritas.</td>
-                      <td>BAIXA</td>
+                      <td>O usuário deve ser capaz de visualizar todas as suas interações com o sistema através do seu Perfil.</td>
+                      <td>MÉDIA</td>
                     </tr>
                     <tr>
                       <th scope="row">RF-007</th>
-                      <td>O usuário deve ser capaz de submeter novos textos para publicações que serão validadas.</td>
-                      <td>BAIXA</td>
+                      <td>O usuário deve ser capaz de se cadastrar e realizar login através dos dados cadastrados.</td>
+                      <td>MÉDIA</td>
                     </tr>
                     <tr>
                       <th scope="row">RF-008</th>
-                      <td>Permitir que o usuário crie uma lista de categorias favoritas.</td>
+                      <td>O usuário deve ser capaz de comentar nos artigos.</td>
                       <td>BAIXA</td>
                     </tr>
                   </tbody>
@@ -447,13 +447,13 @@
                 </div>
                 <p>
                   <b>Tela inicial:</b>
-                  <hr size="10" width="100%" color="#000000"><img src="/docs/assets/images/tela-inicial.png" alt="Tela inicial" width="950" height="600"><br>
+                  <hr size="10" width="100%" color="#000000"><img src="../docs/assets/images/tela-inicial.png" width="950" height="600"><br>
                   <b>Tela de Login:</b>
-                  <hr size="10" width="100%" color="#000000"><img src="/docs/assets/images/tela-login.png" alt="Tela de Login" width="950" height="600"><br>
+                  <hr size="10" width="100%" color="#000000"><img src="../docs/assets/images/tela-login.png" alt="Tela de Login" width="950" height="600"><br>
                   <b>Tela de Cadastro de Usuário:</b>
-                  <hr size="10" width="100%" color="#000000"><img src="/docs/assets/images/tela-cadastro.png" alt="Tela de Cadastro" width="950" height="600"><br>
+                  <hr size="10" width="100%" color="#000000"><img src="../docs/assets/images/tela-cadastro.png" alt="Tela de Cadastro" width="950" height="600"><br>
                   <b>Tela Inicial após o login:</b>
-                  <hr size="10" width="100%" color="#000000"><img src="/docs/assets/images/tela-perfil.png" alt="Tela inicial após o login" width="950" height="600"><br>
+                  <hr size="10" width="100%" color="#000000"><img src="../docs/assets/images/tela-perfil.png" alt="Tela inicial após o login" width="950" height="600"><br>
                 </p>
               </section>
 
@@ -574,19 +574,26 @@
                 <p>O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e direta.</p>
                 <p>Utilize o recurso de compartilhamento via embed e inclua o vídeo logo abaixo.</p>
               </div>
-              <p>...... COLOQUE AQUI O SEU VIDEO ......</p>
+              <p><embed src="../docs/assets/" type=""></p>
             </section>
 
             <section id="ti_funcionalidades">
               <h4>Funcionalidades</h4>
-              <p> - mapa exibição <br>
-                  - central de denuncias <br>
-                  - exibição de artigo <br>
-                  - filtro de categoria <br>
-                  - buscador <br>
-                  - cadastro de usuario <br>
-                  - perfil do usuario / mostrar relatos cadastrados <br>
-                  - campo de comentários na página do artigo 
+              <p> - Exibição de Artigos via JSON Server<br>
+                - Busca por palavras-chave
+                <br>
+                - Filtro de artigos por categoria
+                <br>
+                - Central de Denúncias
+                <br>
+                - Mapa de Golpes
+                <br>
+                - Comentários nos artigos
+                <br>
+                - Perfil com interações do usuário
+                <br>
+                - Cadastro de usuários e login
+
                 <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseFuncionalidades">Info</button>
               </p>
               <div class="alert alert-warning collapse" role="alert" id="collapseFuncionalidades">
@@ -594,157 +601,158 @@
                 <p>Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.</p>
               </div>
 
+              <section>
+                <h5>Funcionalidade 1 - Mapa de Exibição</h5>
+                <p>Permite a visualização de regiões que estão mais propícias a idosos levarem golpes</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_regioes">Regiões </a></li>
+                  <li><strong>Instruções de acesso: </strong>
+                    <ul>
+                      <li>Faça o login</li>
+                      <li>Vá para a Seção Mapa de Denúncias</li>
+                      <li>Observe os dados gerados</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="text-center"><img class="img-fluid" src="assets/images/mapadeexibicao.jpg" alt="Tela Cadastro de Contatos"></p>
+              </section>
+            </section>
+
             <section>
-              <h5>Funcionalidade 1 - Mapa de  Exibição</h5>
-              <p>Permite a visualização de regiões que estão mais propícias a idosos levarem golpes</p>
+              <h5>Funcionalidade 2 - Central de Denuncias</h5>
+              <p> Permite o cadastro de uma denuncia de um golpe</p>
               <ul class="list-unstyled">
-                <li><strong>Estrutura de dados: </strong><a href="#ti_ed_regioes">Regiões </a></li>
+                <li><strong>Estrutura de dados: </strong><a href="#ti_ed_reports">Reports</a></li>
                 <li><strong>Instruções de acesso: </strong>
                   <ul>
-                    <li>Abra o site e efetue o login</li>
-                    <li>Acesse o menu principal e escolha a opção  Mapa de Golpes </li>
-                    <li>Em seguida, consulte o mapa</li>
+                    <li>Faça o login</li>
+                    <li>Vá para a Seção Central de Denúncias</li>
+                    <li>Responda o formulário</li>
+                    <li>Observe a Danúncia sendo gerado</li>
                   </ul>
                 </li>
               </ul>
-              <p class="text-center"><img class="img-fluid" src="assets/images/mapadeexibicao.jpg" alt="Tela Cadastro de Contatos"></p>
+              <p class="text-center"><img class="img-fluid" src="assets/images/centraldedenuncias.jpg" alt="Tela Cadastro de Central de Denuncias"></p>
             </section>
           </section>
 
           <section>
-            <h5>Funcionalidade 2 - Central de Denuncias</h5>
-            <p> Permite o cadastro de uma denuncia de um golpe</p>
+            <h5>Funcionalidade 3 - Exibição de Artigo</h5>
+            <p>Permite, leitura de um artigo</p>
             <ul class="list-unstyled">
-              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_reports">Reports</a></li>
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_categorias">Informativos</a></li>
               <li><strong>Instruções de acesso: </strong>
                 <ul>
                   <li>Abra o site e efetue o login</li>
-                  <li>Acesse o menu principal e escolha a opção Cadastros </li>
-                  <li>Em seguida, escolha a opção Contatos</li>
+                  <li>Vá para a Página Inicial</li>
+                  <li>Desça a tela até a seção Artigos Recentes para visualizar os cards gerados através do JSON Server</li>
                 </ul>
               </li>
             </ul>
-            <p class="text-center"><img class="img-fluid" src="assets/images/centraldedenuncias.jpg" alt="Tela Cadastro de Central de Denuncias"></p>
+            <p class="text-center"><img class="img-fluid" src="assets/images/exibicaodeartigo.jpg" alt="Tela Exibição de Artigo"></p>
           </section>
-        </section>
+          </section>
 
-        <section>
-          <h5>Funcionalidade 3 - Exibição de Artigo</h5>
-          <p>Permite, leitura de um artigo</p>
-          <ul class="list-unstyled">
-            <li><strong>Estrutura de dados: </strong><a href="#ti_ed_categorias">Informativos</a></li>
-            <li><strong>Instruções de acesso: </strong>
-              <ul>
-                <li>Abra o site e efetue o login</li>
-                <li>Acesse o menu principal e escolha a opção Central de Denúncias </li>
-                <li>Em seguida, clicar no artigo escolhido</li>
-              </ul>
-            </li>
-          </ul>
-          <p class="text-center"><img class="img-fluid" src="assets/images/exibicaodeartigo.jpg" alt="Tela Exibição de Artigo"></p>
-        </section>
-      </section>
-
-      <section>
-        <h5>Funcionalidade 4 - Filtro de Categoria</h5>
-        <p>Permite colocar um filtro na pagina de artigos</p>
-        <ul class="list-unstyled">
-          <li><strong>Estrutura de dados: </strong><a href="#ti_ed_categorias">Categorias</a></li>
-          <li><strong>Instruções de acesso: </strong>
-            <ul>
-              <li>Abra o site e efetue o login</li>
-              <li>Acesse o menu principal escrola prara beixo ate chegar em Artigos Recentes </li>
-              <li>Em seguida, selecione o filtro escolhido</li>
+          <section>
+            <h5>Funcionalidade 4 - Filtro de Categoria</h5>
+            <p>Permite colocar um filtro na pagina de artigos</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_categorias">Categorias</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Vá para a Página Inicial</li>
+                  <li>Em seguida, selecione o filtro escolhido</li>
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
-        <p class="text-center"><img class="img-fluid" src="assets/images/filtrodecategoria.jpg" alt="Tela Cadastro de Contatos"></p>
-      </section>
-    </section>
+            <p class="text-center"><img class="img-fluid" src="assets/images/filtrodecategoria.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
 
-    <section>
-      <h5>Funcionalidade 5 - Buscador </h5>
-      <p>Permite a busca artigos pelo titulo</p>
-      <ul class="list-unstyled">
-        <li><strong>Estrutura de dados: </strong><a href="#ti_ed_informativos">Informativos</a></li>
-        <li><strong>Instruções de acesso: </strong>
-          <ul>
-            <li>Abra o site e efetue o login</li>
-            <li>Acesse o menu principal e escolha a parte de artigos recentes </li>
-            <li>Em seguida, pesquise o nome do artigo</li>
-          </ul>
-        </li>
-      </ul>
-      <p class="text-center"><img class="img-fluid" src="assets/images/filtrodecategoria.jpg" alt="Tela Cadastro de Contatos"></p>
-    </section>
-  </section>
+          <section>
+            <h5>Funcionalidade 5 - Buscador </h5>
+            <p>Permite a busca artigos pelo titulo</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_informativos">Informativos</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Acesse o menu principal e vá até a seção Artigos Recentes </li>
+                  <li>Em seguida, pesquise por uma palavra-chave no campo de busca</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/filtrodecategoria.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
 
-  <section>
-    <h5>Funcionalidade 6 - Cadastro de Usuario</h5>
-    <p>Permite a inclusão de usuarios para o sistema</p>
-    <ul class="list-unstyled">
-      <li><strong>Estrutura de dados: </strong><a href="#ti_ed_usuarios"> Usuarios</a></li>
-      <li><strong>Instruções de acesso: </strong>
-        <ul>
-          <li>Acesse o menu principal e escolha a opção cadastrese</li>
-          <li>Em seguida, complete os dados</li>
-        </ul>
-      </li>
-    </ul>
-    <p class="text-center"><img class="img-fluid" src="assets/images/cadastrodeusuario.jpg" alt="Tela Cadastro de Contatos"></p>
-  </section>
-</section>
+          <section>
+            <h5>Funcionalidade 6 - Cadastro de Usuario</h5>
+            <p>Permite a inclusão de usuarios para o sistema</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_usuarios"> Usuarios</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Acesse o menu principal e no menu clique em Cadastre-se/li>
+                  <li>Em seguida, preencha o formulário de cadastro</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/cadastrodeusuario.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
 
-<section>
-  <h5>Funcionalidade 7 - Perfil do Usuario / Mostrar Relatos Cadastrados</h5>
-  <p>Permite a inclusão, leitura, alteração e exclusão de relatos e comentarios</p>
-  <ul class="list-unstyled">
-    <li><strong>Estrutura de dados: </strong><a href="#ti_ed_comentariosereports">Comentarios e Reports</a></li>
-    <li><strong>Instruções de acesso: </strong>
-      <ul>
-        <li>Abra o site e efetue o login</li>
-        <li>Acesse o menu principal e escolha a opção Perfil </li>
-        <li>Em seguida, aparecerá as informaçoes</li>
-      </ul>
-    </li>
-  </ul>
-  <p class="text-center"><img class="img-fluid" src="assets/images/perfildousuario.jpg" alt="Tela Cadastro de Contatos"></p>
-</section>
-</section>
+          <section>
+            <h5>Funcionalidade 7 - Perfil do Usuario / Mostrar Relatos e Comentários Cadastrados</h5>
+            <p>Permite a inclusão, leitura, alteração e exclusão de relatos e comentarios</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_comentariosereports">Comentarios e Reports</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Acesse o menu principal e vá para o ícone de Perfil</li>
+                  <li>Em seguida, aparecerá as informações</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/perfildousuario.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
 
-<section>
-  <h5>Funcionalidade 8 - Campo de Comentários na Página do Artigo</h5>
-  <p>Permite a inclusão de um comentario na pagina de artigos</p>
-  <ul class="list-unstyled">
-    <li><strong>Estrutura de dados: </strong><a href="#ti_ed_comentarios">Comentarios</a></li>
-    <li><strong>Instruções de acesso: </strong>
-      <ul>
-        <li>Abra o site e efetue o login</li>
-        <li>Acesse o menu principal e escolha a vai para a parte de artigos recentes </li>
-        <li>Em seguida, clique no card e faça seu comentario</li>
-      </ul>
-    </li>
-  </ul>
-  <p class="text-center"><img class="img-fluid" src="assets/images/campodecomentários.jpg" alt="Tela Cadastro de Contatos"></p>
-</section>
-</section>
+          <section>
+            <h5>Funcionalidade 8 - Campo de Comentários na Página do Artigo</h5>
+            <p>Permite a inclusão de um comentario na pagina de artigos</p>
+            <ul class="list-unstyled">
+              <li><strong>Estrutura de dados: </strong><a href="#ti_ed_comentarios">Comentarios</a></li>
+              <li><strong>Instruções de acesso: </strong>
+                <ul>
+                  <li>Abra o site e efetue o login</li>
+                  <li>Acesse o menu principal e clique em um dos cards de Artigo</li>
+                  <li>Abaixe até o final da tela e faça seu comentário</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="text-center"><img class="img-fluid" src="assets/images/campodecomentários.jpg" alt="Tela Cadastro de Contatos"></p>
+          </section>
+          </section>
 
 
-            <!-- Estruturas de dados =============== -->
-            <section id="ti_estruturas_dados">
-              <h4>Estruturas de Dados</h4>
-              <p>Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.
-                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseEstruturas">Info</button>
-              </p>
-              <div class="alert alert-warning collapse" role="alert" id="collapseEstruturas">
-                <p>Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração</p>
-                <p>Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.</p>
-              </div>
+          <!-- Estruturas de dados =============== -->
+          <section id="ti_estruturas_dados">
+            <h4>Estruturas de Dados</h4>
+            <p>Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.
+              <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse" href="#collapseEstruturas">Info</button>
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseEstruturas">
+              <p>Apresente as estruturas de dados utilizadas na solução tanto para dados utilizados na essência da aplicação quanto outras estruturas que foram criadas para algum tipo de configuração</p>
+              <p>Nomeie a estrutura, coloque uma descrição sucinta e apresente um exemplo em formato JSON.</p>
+            </div>
 
-              <section>
-                <h5>Estrutura de Dados - Usuarios</h5>
-                <p>Registro dos usuários do sistema utilizados para login e para o perfil do sistema</p>
-                <pre>
+            <section>
+              <h5>Estrutura de Dados - Usuarios</h5>
+              <p>Registro dos usuários do sistema utilizados para login e para o perfil do sistema</p>
+              <pre>
                   {
                     "id": 1,
                     "login": "admin",
@@ -753,12 +761,12 @@
                     "email": "admin@abc.com"
                   }
                 </pre>
-              </section>
+            </section>
 
-              <section>
-                <h5>Estrutura de Dados - Informativos</h5>
-                <p>Registro dos artigos cadastrados</p>
-                <pre>
+            <section>
+              <h5>Estrutura de Dados - Informativos</h5>
+              <p>Registro dos artigos cadastrados</p>
+              <pre>
                   {
                     "id": 1,
                     "titulo": "Golpe do Empréstimo Consignado: saiba como se proteger",
@@ -768,8 +776,8 @@
                     "dataDePublicacao": "2024-05-19"
                   }
                 </pre>
-              </section>
-            
+            </section>
+
 
             <section>
               <h5>Estrutura de Dados - Categorias</h5>
@@ -782,45 +790,69 @@
             
               </pre>
             </section>
-          
-          <section>
-            <h5>Estrutura de Dados - Incidentes</h5>
-            <p>Registro das denuncias</p>
-            <pre>
-              {
-                "id": 1,
-                "data": "10-01-2024",
-                "depoimento": "História do golpe sofrido aqui.",
-                "usuarioId": 1,
-                "regiaoId": 1
-              }
+
+            <section>
+              <h5>Estrutura de Dados - Incidentes</h5>
+              <p>Registro das denuncias</p>
+              <pre>
+              "reports": [
+    {
+      "id": "7684",
+      "name": "Lucas",
+      "email": "lucas@email.com",
+      "city": "Belo Horizonte",
+      "report": "Relato exemplo!\nEste é um exemplo de relato para demonstrar a funcionalidade do CRUD usando o JSON-Server. Além disso, serve para mostrar a funcionalidade do Perfil, que busca o relato diretamente do JSON-Server."
+    }
+  ]
             </pre>
-          </section>
+            </section>
 
-        <section>
-          <h5>Estrutura de Dados -  Regioes</h5>
-          <p>Registro das regioes das denuncias para complementar o mapa</p>
-          <pre>
-            {"id": 1,"regiaoId": 1,"nome": "Regional Norte","coords": [-19.8704, -43.9346],"risco": 30 },
+            <section>
+              <h5>Estrutura de Dados - Regioes</h5>
+              <p>Registro das regioes das denuncias para complementar o mapa</p>
+              <pre>
+                "regioes": [
+                {
+                  "id": "1",
+                  "regiaoId": 1,
+                  "nome": "Regional Norte",
+                  "coords": [
+                    -19.8704,
+                    -43.9346
+                  ]
+                }
           </pre>
-        </section>
+            </section>
 
-        <section>
-          <h5>Estrutura de Dados -  Reports</h5>
-          <p>Registro da central de denuncia </p>
-          <pre>
-            {"id": 1,"regiaoId": 1,"nome": "Regional Norte","coords": [-19.8704, -43.9346],"risco": 30 },
+            <section>
+              <h5>Estrutura de Dados - Reports</h5>
+              <p>Registro da central de denuncia </p>
+              <pre>
+                "reports": [
+                {
+                  "id": "7684",
+                  "name": "Lucas",
+                  "email": "lucas@email.com",
+                  "city": "Belo Horizonte",
+                  "report": "Relato exemplo!\nEste é um exemplo de relato para demonstrar a funcionalidade do CRUD usando o JSON-Server. Além disso, serve para mostrar a funcionalidade do Perfil, que busca o relato diretamente do JSON-Server."
+                }
+              ]
           </pre>
-        </section>
+            </section>
 
-        <section>
-          <h5>Estrutura de Dados -  Comentarios</h5>
-          <p>Registro de um comentario na pagina de artigos</p>
-          <pre>
-            {"id": 1,"regiaoId": 1,"nome": "Regional Norte","coords": [-19.8704, -43.9346],"risco": 30 },
+            <section>
+              <h5>Estrutura de Dados - Comentarios</h5>
+              <p>Registro de um comentario na pagina de artigos</p>
+              <pre>
+                "comentarios": [
+                {
+                  "id": "d502",
+                  "texto": "Estou adorando os conteúdos da página. Continuem com o bom trabalho. PARABÉNS!!!"
+                }
+              ]
           </pre>
-        </section>
-      
+            </section>
+
 
             <!-- Módulos e APIs ================= -->
             <section id="ti_modulos_apis">
@@ -860,7 +892,7 @@
               <p>Apresente uma lista de perguntas e respostas comuns associadas ao projeto. Inclua perguntas como: (1) detalhes de acesso e uso do projeto; (2) informações sobre a instalação e configuração da aplicação; (3) questões sobre a manutenção da aplicação; (4) detalhes sobre a integração da aplicação com outros sistemas; (5) questões sobre a segurança da aplicação.</p>
             </div>
 
-           
+
             <div class="row">
               <div class="col-lg-12">
                 <div class="accordion accordion-alterate arrow-right" id="popularTopics">
@@ -910,37 +942,8 @@
                       </div>
                     </div>
 
-                    <div class="card">
-                      <div class="card-header" id="heading3">
-                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">What are some examples of permitted end
-                           </a> </h5>
-                      </div>
-                      <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
-                        <div class="card-body"> </div>
-                      </div>
-                    </div>
 
-                    <div class="card">
-                      <div class="card-header" id="heading3">
-                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">What are some examples of permitted end
-                          </a> </h5>
-                      </div>
-                      <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
-                        <div class="card-body"> </div>
-                      </div>
-                    </div>
 
-                    <div class="card">
-                      <div class="card-header" id="heading3">
-                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">What are some examples of permitted end
-                          </a> </h5>
-                      </div>
-                      <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
-                        <div class="card-body"> </div>
-                      </div>
-                    </div>
-
-                    
                   </div>
                 </div>
               </div>
