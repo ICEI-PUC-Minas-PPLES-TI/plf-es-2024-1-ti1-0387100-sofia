@@ -113,6 +113,14 @@ max-width: 1120px;
   margin-left: 10px;
 }
 
+@media (max-width: 1000px) {
+  #entrada-comentario {
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}
+
 /* Footer */
 
 #footer-sofia {
@@ -131,4 +139,41 @@ max-width: 1120px;
 #footer-info {
   font-family: "Lora", serif;
   color: dimgray;
+}
+
+@media (max-width: 1100px) {
+  #footer-texto {
+    display: none;
+  }
+  #footer-info {
+    text-align: center;
+  }
+  #footer-sofia {
+    margin-top: 60px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #footer-info {
+    font-size: 0.9rem;
+  }
+  #footer-sofia {
+    margin: 60px;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #footer-info {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #footer-info {
+    font-size: 0.7rem;
+  }
 }
